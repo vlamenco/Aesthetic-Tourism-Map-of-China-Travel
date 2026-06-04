@@ -70,7 +70,7 @@ export default function SidePanel({
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
             href="#"
             target="_blank"
-            title="微信公众号"
+            title="Wechat"
           >
             <i className="fab fa-weixin" />
           </a>
@@ -86,7 +86,7 @@ export default function SidePanel({
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
             href="#"
             target="_blank"
-            title="微博"
+            title="Weibo"
           >
             <i className="fab fa-weibo" />
           </a>
@@ -94,7 +94,7 @@ export default function SidePanel({
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
             href="#"
             target="_blank"
-            title="小红书"
+            title="Red book"
           >
             <i className="fa-solid fa-book-bookmark" />
           </a>
