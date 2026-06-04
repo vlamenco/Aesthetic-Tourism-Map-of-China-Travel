@@ -126,10 +126,11 @@ export default function MapContainer({
       const cityName =
         currentLang === 'zh' ? location.cityName.zh : location.cityName.en
 
-      let content = `<div class="popup-content">
+      let content = `<div class="popup-content" style="max-width: 280px;">
         <div style="font-size: 18px; font-weight: bold; color: #ff6b6b; margin-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 5px;">
           ${cityName}
-        </div>`
+        </div>
+        <div style="max-height: 180px; overflow-y: auto; padding-right: 4px;">`
 
       location.items.forEach((item, index) => {
         const itemName = currentLang === 'zh' ? item.name.zh : item.name.en
@@ -137,7 +138,7 @@ export default function MapContainer({
           class="popup-link-row" 
           data-type="${item.type}"
           data-index="${index}"
-          style="margin: 8px 0; display: block; color: #2c3e50; text-decoration: none; padding: 4px 8px; border-left: 3px solid #4ecdc4; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.2s;"
+          style="margin: 8px 0; display: block; color: #2c3e50; text-decoration: none; padding: 4px 8px; border-left: 3px solid #4ecdc4; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.2s; font-size: 14px; line-height: 1.4;"
           onmouseover="this.style.background='#4ecdc4'; this.style.color='white'; this.style.transform='translateX(4px)';"
           onmouseout="this.style.background='rgba(255,255,255,0.5)'; this.style.color='#2c3e50'; this.style.transform='translateX(0)';"
         >
@@ -145,7 +146,7 @@ export default function MapContainer({
         </div>`
       })
 
-      content += '</div>'
+      content += '</div></div>'
       return content
     },
     [currentLang]

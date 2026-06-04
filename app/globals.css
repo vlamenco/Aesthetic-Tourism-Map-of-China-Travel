@@ -133,3 +133,22 @@
 .panel-animate {
   animation: slideIn 0.4s ease-out;
 }
+
+/* Custom scrollbar for popup */
+.leaflet-popup-content ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.leaflet-popup-content ::-webkit-scrollbar-track {
+  background: rgba(78, 205, 196, 0.1);
+  border-radius: 3px;
+}
+
+.leaflet-popup-content ::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 3px;
+}
+
+.leaflet-popup-content ::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
