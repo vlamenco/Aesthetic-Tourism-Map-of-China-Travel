@@ -63,7 +63,7 @@ export default function SidePanel({
       {/* 社交媒体区域 - 固定在底部 */}
       <div className="border-t border-accent/30 bg-white/90 p-4">
         <p className="mb-3 text-center text-sm text-muted-foreground">
-          {currentLang === 'zh' ? '关注我们' : 'Follow Us'}
+          {currentLang === 'zh' ? '关注我' : 'Follow Me'}
         </p>
         <div className="flex justify-center gap-6">
           <a
