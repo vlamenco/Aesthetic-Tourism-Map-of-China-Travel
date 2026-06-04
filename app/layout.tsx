@@ -1,11 +1,19 @@
 import { Analytics } from '@vercel/analytics/next'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
+import { Noto_Serif_SC } from 'next/font/google'
 import './globals.css'
 
+const notoSerifSC = Noto_Serif_SC({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-noto-serif-sc',
+})
+
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: '中国旅游审美地图 | Aesthetic Tourism Map of China',
+  description: '探索中国各地的旅游景点与美食体验，发现独特的审美之旅',
   generator: 'v0.app',
+  keywords: ['中国旅游', '审美地图', '旅游攻略', 'China Travel', 'Aesthetic Map'],
   icons: {
     icon: [
       {
@@ -25,14 +33,31 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  userScalable: false,
+  themeColor: '#f4f9f4',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className="font-sans antialiased">
+    <html lang="zh-CN" className="bg-background">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+      </head>
+      <body className={`${notoSerifSC.variable} font-sans antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
