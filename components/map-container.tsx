@@ -10,6 +10,12 @@ interface MapContainerProps {
   onItemClick: (item: MapItem) => void
 }
 
+// 中国边界范围
+const CHINA_BOUNDS: L.LatLngBoundsExpression = [
+  [3.86, 73.66],   // 西南角
+  [53.55, 135.05], // 东北角
+]
+
 export default function MapContainer({
   data,
   currentLang,
@@ -30,6 +36,8 @@ export default function MapContainer({
       minZoom: 4,
       maxZoom: 10,
       zoomControl: false,
+      maxBounds: CHINA_BOUNDS,
+      maxBoundsViscosity: 1.0, // 完全限制在边界内
     })
 
     mapRef.current = map
@@ -41,7 +49,7 @@ export default function MapContainer({
       { subdomains: ['1', '2', '3', '4'] }
     ).addTo(map)
 
-    // Add China mask
+    // Add China mask - 遮盖中国以外区域
     fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
       .then((res) => res.json())
       .then((geoRaw) => {
@@ -81,11 +89,12 @@ export default function MapContainer({
           }
         )
 
+        // 使用背景色完全遮盖中国以外区域
         L.polygon([worldOuter, ...chinaHoles], {
           fillColor: '#f4f9f4',
           fillOpacity: 1,
           color: '#4ecdc4',
-          weight: 1.5,
+          weight: 2,
         }).addTo(map)
       })
 
