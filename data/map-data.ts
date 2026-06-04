@@ -25,7 +25,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {
         type: 'image',
         name: { zh: '邢家锅盔', en: 'Xing Guokui (Crispy Flatbread)' },
-        value: '/images/guokui.jpg',
+        value: '/images/food/guokui.jpg',
       },
       {
         type: 'text',
