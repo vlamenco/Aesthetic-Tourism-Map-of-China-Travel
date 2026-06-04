@@ -55,6 +55,26 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         name: { zh: '邢盔', en: 'Xing GuokuiFlatbread)' },
         value: '/images/food/guokui.jpg',
       },
+      {
+        type: 'image',
+        name: { zh: '邢家锅l盔', en: 'XinFlatbread)' },
+        value: '/images/food/guokui.jpg',
+      },
+      {
+        type: 'image',
+        name: { zh: '盔', en: 'XingCrispy Flatbread)' },
+        value: '/images/food/guokui.jpg',
+      },
+      {
+        type: 'image',
+        name: { zh: '邢家盔', en: 'Xing Guokad)' },
+        value: '/images/food/guokui.jpg',
+      },
+      {
+        type: 'image',
+        name: { zh: '邢盔', en: 'Xing GuokuiFlatbread)' },
+        value: '/images/food/guokui.jpg',
+      },
     ],
   },
   {
