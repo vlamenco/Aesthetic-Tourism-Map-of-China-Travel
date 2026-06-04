@@ -32,8 +32,9 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         name: { zh: '繁塔印象', en: 'Impressions of Po Tower' },
         value: {
           zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。'
-          
+
           <img src="/images/繁塔.jpg" style="width:100%; border-radius:8px; margin-top:10px;"> ,
+          
           en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',
         },
       },
