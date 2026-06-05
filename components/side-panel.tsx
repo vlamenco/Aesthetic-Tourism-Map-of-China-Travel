@@ -55,7 +55,7 @@ export default function SidePanel({
 
         {!panelContent.type && (
           <div className="flex h-full items-center justify-center p-6 text-center text-muted-foreground">
-            <p>{currentLang === 'zh' ? '点击地图上的地点查看详情' : 'Click a location on the map to view details'}</p>
+            <p>{currentLang === 'zh' ? '点左边坐标~' : 'Click a location on the map to view details'}</p>
           </div>
         )}
       </div>
@@ -63,12 +63,12 @@ export default function SidePanel({
       {/* 社交媒体区域 - 固定在底部 */}
       <div className="border-t border-accent/30 bg-white/90 p-4">
         <p className="mb-3 text-center text-sm text-muted-foreground">
-          {currentLang === 'zh' ? '关注我' : 'Follow Me'}
+          {currentLang === 'zh' ? '找我玩' : 'Me in Media'}
         </p>
         <div className="flex justify-center gap-6">
           <a
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
-            href="#"
+            href="https://mp.weixin.qq.com/s/1ZIiS4miM909G2bAhD2rZQ"
             target="_blank"
             title="Wechat"
           >
@@ -76,7 +76,7 @@ export default function SidePanel({
           </a>
           <a
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
-            href="#"
+            href="https://www.bilibili.com/video/BV1rxLuznEEB/?spm_id_from=333.1387.homepage.video_card.click"
             target="_blank"
             title="Bilibili"
           >
@@ -84,7 +84,7 @@ export default function SidePanel({
           </a>
           <a
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
-            href="#"
+            href="https://weibo.com/u/9028734139"
             target="_blank"
             title="Weibo"
           >
@@ -92,7 +92,7 @@ export default function SidePanel({
           </a>
           <a
             className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
-            href="#"
+            href="https://www.xiaohongshu.com/user/profile/68e75447000000003201e50d"
             target="_blank"
             title="Red book"
           >
