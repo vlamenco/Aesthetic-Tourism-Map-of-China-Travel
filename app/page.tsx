@@ -10,7 +10,7 @@ const MapContainer = dynamic(() => import('@/components/map-container'), {
   ssr: false,
   loading: () => (
     <div className="flex h-full w-full items-center justify-center bg-background">
-      <div className="text-lg text-muted-foreground">加载地图中...</div>
+      <div className="text-lg text-muted-foreground">sing a song:这里的山路十八弯，这里的~~~(忘记歌词了)</div>
     </div>
   ),
 })
