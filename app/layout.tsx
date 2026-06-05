@@ -11,9 +11,9 @@ const notoSerifSC = Noto_Serif_SC({
 
 export const metadata: Metadata = {
   title: '中国旅游审美地图 | Aesthetic Tourism Map of China',
-  description: '探索中国各地的旅游景点与美食体验，发现独特的审美之旅',
+  description: '印象中国，大美中国',
   generator: 'v0.app',
-  keywords: ['中国旅游', '审美地图', '旅游攻略', 'China Travel', 'Aesthetic Map'],
+  keywords: ['中国旅游', '中国审美地图', '旅游攻略', 'China Travel', 'China Aesthetic Map'],
   icons: {
     icon: [
       {
