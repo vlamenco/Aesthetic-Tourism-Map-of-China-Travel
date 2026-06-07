@@ -28,7 +28,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
   },
   links: [  // 👈 新增链接数组
     {
-      text: { zh: '豫州行之开封有个万岁山', en: 'A Trip Across Henan Province: Wansui Mountain in Kaifeng' },  // 显示的文字 '豫州行之开封有个万岁山'
+      text: '豫州行之开封有个万岁山',  // 显示的文字 '豫州行之开封有个万岁山'
       url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
     }
   ]
