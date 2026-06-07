@@ -3,7 +3,8 @@ export interface MapItem {
   name: { zh: string; en: string }
   value: string | { zh: string; en: string }
   url?: string  // 可选的链接字段
-  links?: Array<{ text: string; url: string }>  // 👈 新增：文本内的多个链接
+  links?: Array<{ text: string; url: string }>  //文本内的多个链接
+  description?: { zh: string; en: string }  // 图片描述
 }
 
 export interface MapLocation {
@@ -37,6 +38,10 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         type: 'image',
         name: { zh: '邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
         value: '/images/food/邢家锅贴.jpg',
+        description: {
+    zh: '味道清新，造型像拿破仑的帽子。',
+    en: ' fresh taste and shaped like Napoleon's hat. “Impossible n'est pas français.”'
+  }
       },
       {
         type: 'text',
