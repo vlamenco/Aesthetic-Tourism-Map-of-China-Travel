@@ -110,7 +110,7 @@ export default function SidePanel({
             rel="noopener noreferrer"
             title="Douban"
           >
-            <i className="fa-solid fa-star-half-empty" />
+            <i className="fa-solid fa-heart" />
           </a>
         </div>
       </div>
