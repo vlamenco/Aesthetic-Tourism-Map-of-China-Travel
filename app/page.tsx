@@ -10,7 +10,7 @@ const MapContainer = dynamic(() => import('@/components/map-container'), {
   ssr: false,
   loading: () => (
     <div className="flex h-full w-full items-center justify-center bg-background">
-      <div className="text-lg text-muted-foreground">sing a song:这里的山路十八弯，这里的~~~(忘记歌词了)</div>
+      <div className="text-lg text-muted-foreground">sing a song:这里的山路十八弯，这里水路九连环~~~(加载完毕ing)</div>
     </div>
   ),
 })
@@ -61,8 +61,8 @@ export default function Home() {
       <Header currentLang={currentLang} onToggleLanguage={toggleLanguage} />
 
       <main className="flex flex-1 overflow-hidden">
-        {/* 地图区域 - 占3/4 */}
-        <div className="h-full w-3/4">
+        {/* 地图区域 - 占3/5 */}
+        <div className="h-full w-3/5">
           <MapContainer
             data={AESTHETIC_MAP_DATA}
             currentLang={currentLang}
@@ -70,7 +70,7 @@ export default function Home() {
           />
         </div>
 
-        {/* 右侧面板区域 - 占1/4 */}
+        {/* 右侧面板区域 - 占  */}
         <SidePanel
           currentLang={currentLang}
           panelContent={panelContent}
