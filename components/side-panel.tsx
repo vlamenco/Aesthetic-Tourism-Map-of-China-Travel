@@ -36,11 +36,12 @@ export default function SidePanel({
             </h2>
 
             {panelContent.type === 'text' ? (
-              <div className="whitespace-pre-wrap leading-relaxed text-foreground">
-                {panelContent.content}
-              </div>
-            
-             {/* 👇 新增：显示链接 */}
+              <div>
+                <div className="whitespace-pre-wrap leading-relaxed text-foreground">
+                  {panelContent.content}
+                </div>
+
+                {/* 显示相关链接 */}
                 {panelContent.links && panelContent.links.length > 0 && (
                   <div className="mt-4 border-t border-accent/20 pt-4">
                     <p className="mb-2 text-sm font-semibold text-accent">
@@ -53,9 +54,10 @@ export default function SidePanel({
                             href={link.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-500 hover:text-blue-700 hover:underline transition-colors"
+                            className="inline-flex items-center gap-1 text-accent transition-colors hover:underline"
                           >
-                            🔗 {link.text}
+                            <i className="fa-solid fa-link text-xs" />
+                            {link.text}
                           </a>
                         </li>
                       ))}
