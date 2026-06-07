@@ -20,7 +20,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
      {
-  type: 'text',
+  type: 'link',
   name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
   value: {
     zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
