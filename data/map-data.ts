@@ -18,13 +18,14 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
       {
-        type: 'link',
+        type: 'text',
         name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
          value: {
-          zh: '点击查看详细攻略' ,
+          zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！' ,
           
-          en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',
-        },
+          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
+        link：'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
+          },
       },
       {
         type: 'image',
