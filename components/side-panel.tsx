@@ -55,7 +55,8 @@ export default function SidePanel({
 
         {!panelContent.type && (
           <div className="flex h-full items-center justify-center p-6 text-center text-muted-foreground">
-            <p>{currentLang === 'zh' ? '点左边坐标~' : 'Click a location on the map to view details'}</p>
+            <p>{currentLang === 'zh' ? 'INFJ与INFP从不隶属于任何标签，我们虽身处同一片空间，但各自有神奇的小宇宙，欢迎来到我们的结界👈。' : 
+              'INFJs and INFPs never belong to any labels. Though we stay in the same space, each of us has a wonderful inner world. Welcome to our magical world👈.'}</p>
           </div>
         )}
       </div>
@@ -63,7 +64,7 @@ export default function SidePanel({
       {/* 社交媒体区域 - 固定在底部 */}
       <div className="border-t border-accent/30 bg-white/90 px-6 py-5 flex-shrink-0">
         <p className="mb-4 text-center text-sm text-muted-foreground">
-          {currentLang === 'zh' ? '找我玩' : 'Me in Media'}
+          {currentLang === 'zh' ? '找我玩' : 'Another Me'}
         </p>
         <div className="flex justify-center gap-8">
           <a
@@ -99,6 +100,15 @@ export default function SidePanel({
             target="_blank"
             rel="noopener noreferrer"
             title="Red book"
+          >
+            <i className="fa-solid fa-book-bookmark" />
+          </a>
+          <a
+            className="cursor-pointer text-2xl text-primary no-underline transition-all hover:-translate-y-1 hover:scale-110 hover:text-accent"
+            href="https://www.douban.com/people/vlamenco19/?_i=0824432UG0rZrk"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Douban"
           >
             <i className="fa-solid fa-book-bookmark" />
           </a>
