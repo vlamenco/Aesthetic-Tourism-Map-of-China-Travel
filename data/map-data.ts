@@ -15,12 +15,13 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
   {
     lat: 34.7973,
     lng: 114.3072,
-    cityName: { zh: '开封府', en: 'Kaifeng' },
+    cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
       {
         type: 'link',
-        name: { zh: '万岁山大宋武侠城', en: 'Millennium City Park' },
-        value: 'https://mp.weixin.qq.com/s/xxxxxx',
+        name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
+        value: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
+        description: { zh: '一篇开封深度游记，万岁山是全世界最棒的人造游乐园！', en: 'A deep travelogue of Kaifeng: Wansui Mountain is the best artificial amusement park in the world!' }
       },
       {
         type: 'image',
