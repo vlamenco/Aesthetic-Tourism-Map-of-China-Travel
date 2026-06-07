@@ -20,9 +20,8 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {
         type: 'link',
         name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-        value: {url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
-      caption: { zh: '一篇开封深度游记，万岁山是全世界最棒的人造游乐园！', en: 'A deep travelogue of Kaifeng: Wansui Mountain is the best artificial amusement park in the world!' }
-    },        },
+        value: {zh: '点击查看详细攻略 https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
+  en: 'Click for full guide https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ' },        },
       {
         type: 'image',
         name: { zh: '邢家锅盔', en: 'Xing Guokui (Crispy Flatbread)' },
