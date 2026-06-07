@@ -22,9 +22,8 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
          value: {
           zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！' ,
-          
-          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
-        link：'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
+      en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
+      //  link：'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
           },
       },
       {
