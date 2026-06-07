@@ -8,6 +8,7 @@ interface SidePanelProps {
     type: 'text' | 'image' | null
     title: string
     content: string
+    description?: string  // 👈 新增：图片描述
     links?: Array<{ text: string; url: string }>  // 👈 新增
   }
   onClose: () => void
@@ -75,6 +76,13 @@ export default function SidePanel({
                   className="h-auto w-full rounded-lg object-cover shadow-md"
                   unoptimized
                 />
+
+                {/* 图片文字介绍 */}
+                {panelContent.description && (
+                  <p className="mt-4 whitespace-pre-wrap leading-relaxed text-foreground">
+                    {panelContent.description}
+                  </p>
+                )}
               </div>
             )}
           </div>
