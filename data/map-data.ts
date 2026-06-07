@@ -19,20 +19,20 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     lng: 114.3072,
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
-      {
-        type: 'link',
-        name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-      //  value: { zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
-      //    en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
-      //  },
-        links: [  // 👈 新增链接数组
+     {
+  type: 'text',
+  name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
+  value: {
+    zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
+    en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
+  },
+  links: [  // 👈 新增链接数组
     {
       text: '查看原文',  // 显示的文字
       url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
     }
   ]
-       // url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
-      },
+},
       {
         type: 'image',
         name: { zh: '邢家锅盔', en: 'Xing Guokui (Crispy Flatbread)' },
