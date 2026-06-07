@@ -110,7 +110,7 @@ export default function SidePanel({
             rel="noopener noreferrer"
             title="Douban"
           >
-            <i className="fa-solid fa-book-bookmark" />
+            <i className="fa-solid fa-star-half-empty" />
           </a>
         </div>
       </div>
