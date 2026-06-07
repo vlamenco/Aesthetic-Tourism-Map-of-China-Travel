@@ -19,18 +19,18 @@ export default function Header({ currentLang, onToggleLanguage }: HeaderProps) {
       <h1 className="relative text-2xl font-bold tracking-wider text-primary">
         {currentLang === 'zh' ? (
           <>
-            中国旅游审美地图
+            INFJ+INFP的中国旅游审美地图
             <br />
             <span className="text-sm font-normal text-foreground/70">
-              Aesthetic Tourism Map of China
+              Aesthetic Tourism Map of China for INFJ+INFP
             </span>
           </>
         ) : (
           <>
-            Aesthetic Tourism Map of China
+            Aesthetic Tourism Map of China for INFJ+INFP
             <br />
             <span className="text-sm font-normal text-foreground/70">
-              中国旅游审美地图
+              INFJ+INFP的中国旅游审美地图
             </span>
           </>
         )}
@@ -62,7 +62,7 @@ export default function Header({ currentLang, onToggleLanguage }: HeaderProps) {
             }}
           />
         ) : (
-          <span className="font-bold text-primary">545792605@foxmail.com</span>
+          <span className="font-bold text-primary">vlamenco@foxmail.com</span>
         )}
       </div>
     </header>
