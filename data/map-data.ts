@@ -37,7 +37,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {
         type: 'image',
         name: { zh: '邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
-        value: '/images/邢家锅贴.jpg',
+        value: '/images/guotie.jpg',
         description: {
     zh: '味道清新，造型像拿破仑的帽子。',
     en: 'Fresh taste and shaped like Napoleon\'s hat. “Impossible n\'est pas français.”',
