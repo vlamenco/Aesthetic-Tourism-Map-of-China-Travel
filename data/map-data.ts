@@ -20,8 +20,11 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {
         type: 'link',
         name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-        value: {zh: '点击查看详细攻略 https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
-  en: 'Click for full guide https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ' },        },
+        value: {
+          zh: '点击查看详细攻略 https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
+                
+        en: 'Click for full guide https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ' },       
+      },
       {
         type: 'image',
         name: { zh: '邢家锅盔', en: 'Xing Guokui (Crispy Flatbread)' },
