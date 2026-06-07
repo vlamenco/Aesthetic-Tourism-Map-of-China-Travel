@@ -2,6 +2,7 @@ export interface MapItem {
   type: 'link' | 'image' | 'text'
   name: { zh: string; en: string }
   value: string | { zh: string; en: string }
+  url?: string  // 可选的链接字段
 }
 
 export interface MapLocation {
@@ -20,11 +21,11 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {
         type: 'text',
         name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-         value: {
-          zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！ https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ' ,
-      en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
-      //  link：'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
-          },
+        value: {
+          zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
+          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
+        },
+        url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
       },
       {
         type: 'image',
@@ -35,8 +36,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         type: 'text',
         name: { zh: '繁塔印象', en: 'Impressions of Po Tower' },
         value: {
-          zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。' ,
-          
+          zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。',
           en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',
         },
       },
