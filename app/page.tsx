@@ -46,6 +46,7 @@ export default function Home() {
           type: 'text',
           title: name,
           content: currentLang === 'zh' ? textValue.zh : textValue.en,
+          links: item.links,  // 👈 新增：传递链接
         })
       }
     },
