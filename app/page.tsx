@@ -21,6 +21,8 @@ export default function Home() {
     type: 'text' | 'image' | null
     title: string
     content: string
+    description?: string
+    links?: Array<{ text: string; url: string }>
   }>({ type: null, title: '', content: '' })
 
   const toggleLanguage = useCallback(() => {
@@ -39,6 +41,11 @@ export default function Home() {
           type: 'image',
           title: name,
           content: item.value as string,
+          description: item.description
+            ? currentLang === 'zh'
+              ? item.description.zh
+              : item.description.en
+            : undefined,
         })
       } else if (item.type === 'text') {
         const textValue = item.value as { zh: string; en: string }

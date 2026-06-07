@@ -40,8 +40,8 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         value: 'data/images/邢家锅贴.jpg',
         description: {
     zh: '味道清新，造型像拿破仑的帽子。',
-    en: ' fresh taste and shaped like Napoleon's hat. “Impossible n'est pas français.”'
-  }
+    en: 'Fresh taste and shaped like Napoleon\'s hat. “Impossible n\'est pas français.”',
+  },
       },
       {
         type: 'text',
