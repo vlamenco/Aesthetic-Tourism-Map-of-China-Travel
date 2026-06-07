@@ -8,6 +8,7 @@ interface SidePanelProps {
     type: 'text' | 'image' | null
     title: string
     content: string
+    links?: Array<{ text: string; url: string }>  // 👈 新增
   }
   onClose: () => void
 }
@@ -37,6 +38,30 @@ export default function SidePanel({
             {panelContent.type === 'text' ? (
               <div className="whitespace-pre-wrap leading-relaxed text-foreground">
                 {panelContent.content}
+              </div>
+            
+             {/* 👇 新增：显示链接 */}
+                {panelContent.links && panelContent.links.length > 0 && (
+                  <div className="mt-4 border-t border-accent/20 pt-4">
+                    <p className="mb-2 text-sm font-semibold text-accent">
+                      {currentLang === 'zh' ? '相关链接：' : 'Related Links:'}
+                    </p>
+                    <ul className="space-y-2">
+                      {panelContent.links.map((link, idx) => (
+                        <li key={idx}>
+                          <a
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:text-blue-700 hover:underline transition-colors"
+                          >
+                            🔗 {link.text}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ) : (
               <div className="relative w-full">
