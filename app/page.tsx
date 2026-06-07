@@ -60,7 +60,7 @@ export default function Home() {
     <div className="flex h-screen flex-col overflow-hidden">
       <Header currentLang={currentLang} onToggleLanguage={toggleLanguage} />
 
-      <main className="flex flex-1 overflow-hidden">
+      <main className="flex flex-1 overflow-hidden bg-background">
         {/* 地图区域 - 占3/5 */}
         <div className="h-full w-3/5">
           <MapContainer
@@ -70,7 +70,7 @@ export default function Home() {
           />
         </div>
 
-        {/* 右侧面板区域 - 占  */}
+        {/* 右侧面板区域 - 占2/5 */}
         <SidePanel
           currentLang={currentLang}
           panelContent={panelContent}
