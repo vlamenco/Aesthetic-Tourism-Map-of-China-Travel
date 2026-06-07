@@ -97,8 +97,8 @@ export default function SidePanel({
       </div>
 
       {/* 社交媒体区域 - 固定在底部 */}
-      <div className="border-t border-accent/30 bg-white/90 px-6 py-5 flex-shrink-0">
-        <p className="mb-4 text-center text-sm text-muted-foreground">
+      <div className="border-t border-accent/30 bg-white/90 px-6 py-4 flex-shrink-0">
+        <p className="mb-3 text-center text-sm text-muted-foreground">
           {currentLang === 'zh' ? '找我玩' : 'Another Me'}
         </p>
         <div className="flex justify-center gap-8">
