@@ -3,6 +3,7 @@ export interface MapItem {
   name: { zh: string; en: string }
   value: string | { zh: string; en: string }
   url?: string  // 可选的链接字段
+  links?: Array<{ text: string; url: string }>  // 👈 新增：文本内的多个链接
 }
 
 export interface MapLocation {
@@ -25,7 +26,13 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
           zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
           en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
         },
-        url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
+        links: [  // 👈 新增链接数组
+    {
+      text: '查看原文',  // 显示的文字
+      url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
+    }
+  ]
+       // url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ',
       },
       {
         type: 'image',
@@ -55,26 +62,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         name: { zh: '邢家盔', en: 'Xing Guokad)' },
         value: '/images/food/guokui.jpg',
       },
-      {
-        type: 'image',
-        name: { zh: '邢盔', en: 'Xing GuokuiFlatbread)' },
-        value: '/images/food/guokui.jpg',
-      },
-      {
-        type: 'image',
-        name: { zh: '邢家锅l盔', en: 'XinFlatbread)' },
-        value: '/images/food/guokui.jpg',
-      },
-      {
-        type: 'image',
-        name: { zh: '盔', en: 'XingCrispy Flatbread)' },
-        value: '/images/food/guokui.jpg',
-      },
-      {
-        type: 'image',
-        name: { zh: '邢家盔', en: 'Xing Guokad)' },
-        value: '/images/food/guokui.jpg',
-      },
+  
       {
         type: 'image',
         name: { zh: '邢盔', en: 'Xing GuokuiFlatbread)' },
