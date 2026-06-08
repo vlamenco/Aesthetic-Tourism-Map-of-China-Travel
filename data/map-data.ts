@@ -22,40 +22,29 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     lng: 114.3072,
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
-     {
-  type: 'text',
+     { type: 'text',
   name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-  value: {
-    zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
-    en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
-  },
+  value: { zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
+    en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!', },
   links: [  // 👈 新增链接数组
-    {
-      text: '豫州行之开封有个万岁山',  // 显示的文字 '豫州行之开封有个万岁山'
-      url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
-    }
-  ]
+    { text: '豫州行之开封有个万岁山',  // 显示的文字 '豫州行之开封有个万岁山'
+      url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ' } ]
 },
-      {
-        type: 'image',
+      { type: 'image',
         name: { zh: '邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
         value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
-        description: {
-    zh: '味道清新，造型像拿破仑的帽子。',
+        description: {zh: '味道清新，造型像拿破仑的帽子。',
     en: `Fresh taste and shaped like Napoleon's hat.
-“Impossible n'est pas français.”`,,
-  },
+“Impossible n'est pas français.”`},
       },
-      {
-        type: 'text',
+      {type: 'text',
         name: { zh: '繁塔印象', en: 'Impressions of Po Tower' },
         value: {
           zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。',
           en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',
         },
       },
-      {
-        type: 'image',
+      {type: 'image',
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
         description: { zh: '宋代科举分“解试[举人]、省试[省元]、殿试{进士:一甲：状元、榜眼、探花，赐 及第;
@@ -65,23 +54,6 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     en: `Fresh taste and shaped like Napoleon's hat.
 “Impossible n'est pas français.”`,,
   },
-      },
-      {
-        type: 'image',
-        name: { zh: '盔', en: 'XingCrispy Flatbread)' },
-        value: '/images/food/邢家锅贴.jpg',
-      },
-      {
-        type: 'image',
-        name: { zh: '邢家盔', en: 'Xing Guokad)' },
-        value: '/images/food/guokui.jpg',
-      },
-  
-      {
-        type: 'image',
-        name: { zh: '邢盔', en: 'Xing GuokuiFlatbread)' },
-        value: '/images/food/guokui.jpg',
-      },
     ],
   },
   {
@@ -89,13 +61,10 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     lng: 116.4074,
     cityName: { zh: '北京', en: 'Beijing' },
     items: [
-      {
-        type: 'link',
+      { type: 'link',
         name: { zh: '故宫博物院', en: 'The Forbidden City' },
-        value: 'https://www.dpm.org.cn/',
-      },
-      {
-        type: 'text',
+        value: 'https://www.dpm.org.cn/',},
+      { type: 'text',
         name: { zh: '胡同漫步', en: 'Hutong Walking' },
         value: {
           zh: '穿行于老北京的胡同之间，青砖灰瓦诉说着百年故事，四合院里的槐树依旧摇曳。',
