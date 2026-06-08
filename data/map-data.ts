@@ -42,7 +42,8 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
         description: {
     zh: '味道清新，造型像拿破仑的帽子。',
-    en: 'Fresh taste and shaped like Napoleon\'s hat. “Impossible n\'est pas français.”',
+    en: `Fresh taste and shaped like Napoleon's hat.
+“Impossible n'est pas français.”`,,
   },
       },
       {
