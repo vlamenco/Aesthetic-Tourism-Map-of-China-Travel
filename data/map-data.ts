@@ -14,6 +14,8 @@ export interface MapLocation {
   items: MapItem[]
 }
 
+const GITHUB_IMAGE_BASE_URL = 'https://raw.githubusercontent.com/vlamenco/Aesthetic-Tourism-Map-of-China-Travel/refs/heads/main/images/';
+
 export const AESTHETIC_MAP_DATA: MapLocation[] = [
   {
     lat: 34.7973,
@@ -37,7 +39,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {
         type: 'image',
         name: { zh: '邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
-        value: '/images/guotie.jpg',
+        value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
         description: {
     zh: '味道清新，造型像拿破仑的帽子。',
     en: 'Fresh taste and shaped like Napoleon\'s hat. “Impossible n\'est pas français.”',
