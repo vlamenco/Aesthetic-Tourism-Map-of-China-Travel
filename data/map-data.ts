@@ -42,18 +42,19 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
         description: {  zh: `宋代科举分 “解试【举人】、省试【省元】、殿试{进士:【一甲：状元、榜眼、探花，赐及第;二甲：赐出身;三甲：赐同出身】}” 逐级晋升。
-包青天 28岁考中进士，属年少登科。但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出。
-35岁就职场毕业的我们，请坚持住，一定要等到曙光！
-PS:不要来包公祠！会唱那首歌就行了！全是后建的，不值得`,
+  包青天 28岁考中进士，属年少登科。但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出。
+  35岁就职场毕业的我们，请坚持住，一定要等到曙光！
+  PS:不要来包公祠！会唱那首歌就行了！全是后建的，不值得`,
           en: `The imperial examinations in the Song Dynasty were conducted in successive stages: the Provincial Preliminary Examination (for Juren candidates), the Metropolitan Examination (for Metropolitan Top Scholars), and the Palace Examination (for Jinshi scholars). 
           Jinshi scholars were ranked into three tiers: the First Class, consisting of 状元、榜眼、探花, who were granted the title of "Passed with Distinction"; the Second Class, granted the title of "Graduate"; and the Third Class, granted the title of "Associate Graduate".
           Bao Zheng passed the Jinshi examination at the age of 28, an achievement for someone so young to succeed in the imperial exams. However, he resigned from his official post to return home and take care of his elderly parents. He devoted a decade to this filial duty and only resumed his official career after his parents passed away and he completed the traditional mourning period.
-For those of us who feel like we have "graduated" from the workplace at 35, hold on, never give up! The hope light will come.
+For those of us who feel like we have "graduated" from the workplace at 35, hold on, never give up! 
+The hopeful light will come.
  No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.`   },
       },
       {type: 'image',
         name: { zh: '夜市小摊', en: 'Night market stall' },
-        value: [`${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png`,`${GITHUB_IMAGE_BASE_URL}/yeshixiaotan.jpg`],
+        value: `${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png,${GITHUB_IMAGE_BASE_URL}/yeshixiaotan.jpg`,
         description: {  zh: `鼓楼 / 西司 / 老河大 夜市，我都经过了，本地人不推荐，就像大部分出名的古镇，没太多特色，年轻人打卡凑热闹还行，老外估计比较喜欢。`,
           en: `I have passed by the night markets at Gulou, Xisi and Old Henan University. Foreigners can come over to experience the lively alleyways and unique late-night snack culture. 
           The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`   },
