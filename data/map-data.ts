@@ -22,48 +22,34 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     lng: 114.3072,
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
-      {
-        type: 'text',
+      {type: 'text',
         name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-        value: {
-          zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
-          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
-        },
-        links: [
-          {
-            text: '豫州行之开封有个万岁山',
-            url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
-          }
-        ]
-      },
-      {
-        type: 'image',
+        value: { zh: '开封深度游记，万岁山是全世界最棒的人造游乐场！',
+          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',},
+        links: [{text: '豫州行之开封有个万岁山',
+            url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'}]},
+      {type: 'image',
         name: { zh: '邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
         value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
-        description: {
-          zh: '味道清新，造型像拿破仑的帽子。',
+        description: { zh: '味道清新，造型像拿破仑的帽子。',
           en: `Fresh taste and shaped like Napoleon's hat.
-"Impossible n'est pas français."`
-        }
-      },
-      {
-        type: 'text',
+"Impossible n'est pas français."`} },
+      { type: 'text',
         name: { zh: '繁塔印象', en: 'Impressions of Po Tower' },
-        value: {
-          zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。',
-          en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',
-        },
-      },
-      {
-        type: 'image',
+        value: { zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。',
+          en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',},},
+      {type: 'image',
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
-        description: {
-          zh: `宋代科举分 “解试[举人]、省试[省元]、殿试{进士:【一甲：状元、榜眼、探花，赐及第;二甲：赐出身;三甲：赐同出身】}” 逐级晋升。
-包青天 28岁考中进士属年少登科，但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出`,
-          en: `The Song Dynasty imperial examination system.
-Bao Zheng passed the Jinshi exam at 28 but served his parents full-time for 10 years.`
-        },
+        description: {  zh: `宋代科举分 “解试【举人】、省试【省元】、殿试{进士:【一甲：状元、榜眼、探花，赐及第;二甲：赐出身;三甲：赐同出身】}” 逐级晋升。
+包青天 28岁考中进士，属年少登科。但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出。
+35岁就职场毕业的我们，请坚持住，一定要等到曙光！
+PS:不要来包公祠！会唱那首歌就行了！全是后建的，不值得`,
+          en: `The imperial examinations in the Song Dynasty were conducted in successive stages: the Provincial Preliminary Examination (for Juren candidates), the Metropolitan Examination (for Metropolitan Top Scholars), and the Palace Examination (for Jinshi scholars). 
+          Jinshi scholars were ranked into three tiers: the First Class, consisting of 状元、榜眼、探花, who were granted the title of "Passed with Distinction"; the Second Class, granted the title of "Graduate"; and the Third Class, granted the title of "Associate Graduate".
+          Bao Zheng passed the Jinshi examination at the age of 28, an achievement for someone so young to succeed in the imperial exams. However, he resigned from his official post to return home and take care of his elderly parents. He devoted a decade to this filial duty and only resumed his official career after his parents passed away and he completed the traditional mourning period.
+For those of us who feel like we have "graduated" from the workplace at 35, hold on, never give up! The hope light will come.
+ No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.`   },
       }
     ]
   },
