@@ -39,7 +39,9 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
   name: { zh: '繁塔', en: 'Po Tower' },
   value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
   description: {
-    zh: '“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。',
+    zh: '“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。
+      外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。
+      上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。',
     en: 'The Iron Pagoda only reaches the waist of the Po Tower. So the Po Tower is the real highlight. Shaped like an imperial jade seal, this hexagonal pagoda stands merely three stories tall. Even in its incomplete state, it remains breathtakingly beautiful, situated outside the ancient city wall. 
       Each carved brick carries people\'s aspirations, prayers and remembrances. From imperial families and high-ranking officials down to ordinary folk, everyone has a bond with this pagoda. 
       Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.'
@@ -68,8 +70,7 @@ The hopeful light will come.
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png`,
         description: {  zh: `鼓楼 / 西司 / 老河大 夜市，我都经过了，本地人不推荐，就像大部分出名的古镇，没太多特色，年轻人打卡凑热闹还行，老外估计比较喜欢。`,
           en: `I have passed by the night markets at Gulou, Xisi and Old Henan University. Foreigners can come over to experience the lively alleyways and unique late-night snack culture. 
-          The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`   },
-      }
+          The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`   },}
     ]
   },
   {
