@@ -34,15 +34,17 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         description: { zh: '味道清新，造型像拿破仑的帽子。',
           en: `Fresh taste and shaped like Napoleon's hat.
 "Impossible n'est pas français."`} },
+     
       { type: 'image',
         name: { zh: '繁塔', en: 'Po Tower' },
         value:  `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
-        description: { zh: '“铁塔只搭繁塔腰”
-          so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。',
-          en: 'The Iron Pagoda only reaches the waist of the Po Tower （铁塔只搭繁塔腰）."
-      So the Po Tower is the real highlight.  
-            Shaped like an imperial jade seal, this hexagonal pagoda stands merely three stories tall. Even in its incomplete state, it remains breathtakingly beautiful, situated outside the ancient city wall. Each carved brick carries people's aspirations, prayers and remembrances. 
-            From imperial families and high-ranking officials down to ordinary folk, everyone has a bond with this pagoda. Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.',},},
+        description: { zh: '“铁塔只搭繁塔腰”。  so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。',
+          en: 'The Iron Pagoda only reaches the waist of the Po Tower （铁塔只搭繁塔腰）.
+      So the Po Tower is the real highlight.
+         Shaped like an imperial jade seal, this hexagonal pagoda stands merely three stories tall. Even in its incomplete state, it remains breathtakingly beautiful, situated outside the ancient city wall. Each carved brick carries people's aspirations, prayers and remembrances. 
+         From imperial families and high-ranking officials down to ordinary folk, everyone has a bond with this pagoda. Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.',
+                     },},
+      
       {type: 'image',
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
