@@ -34,23 +34,31 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         description: { zh: '味道清新，造型像拿破仑的帽子。',
           en: `Fresh taste and shaped like Napoleon's hat.
 "Impossible n'est pas français."`} },
-      { type: 'text',
-        name: { zh: '繁塔印象', en: 'Impressions of Po Tower' },
-        value: { zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。',
-          en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',},},
+      { type: 'image',
+        name: { zh: '繁塔', en: 'Po Tower' },
+        value:  `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
+        description: { zh: '“铁塔只搭繁塔腰”
+          so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。',
+          en: 'The Iron Pagoda only reaches the waist of the Po Tower （铁塔只搭繁塔腰）."
+      So the Po Tower is the real highlight.  
+            Shaped like an imperial jade seal, this hexagonal pagoda stands merely three stories tall. Even in its incomplete state, it remains breathtakingly beautiful, situated outside the ancient city wall. Each carved brick carries people's aspirations, prayers and remembrances. 
+            From imperial families and high-ranking officials down to ordinary folk, everyone has a bond with this pagoda. Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.',},},
       {type: 'image',
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
-        description: {  zh: `宋代科举分 “解试【举人】、省试【省元】、殿试{进士:【一甲：状元、榜眼、探花，赐及第;二甲：赐出身;三甲：赐同出身】}” 逐级晋升。
+        description: {  zh: `宋代科举分 “解试【举人】、省试【省元】、殿试{进士:
+        【一甲：状元、榜眼、探花，赐及第;
+        二甲：赐出身;
+        三甲：赐同出身】}” 逐级晋升。
     包青天 28岁考中进士，属年少登科。但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出。
     35岁就职场毕业的我们，请坚持住，一定要等到曙光！
-  （PS:不要来包公祠！会唱那首歌就行了！全是后建的，不值得）`,
+    （PS:不要来包公祠！会唱那首歌就行了！全是后建的，不值得）`,
           en: `The imperial examinations in the Song Dynasty were conducted in successive stages: the Provincial Preliminary Examination (for Juren candidates), the Metropolitan Examination (for Metropolitan Top Scholars), and the Palace Examination (for Jinshi scholars). 
           Jinshi scholars were ranked into three tiers: the First Class, consisting of 状元、榜眼、探花, who were granted the title of "Passed with Distinction"; the Second Class, granted the title of "Graduate"; and the Third Class, granted the title of "Associate Graduate".
           Bao Zheng passed the Jinshi examination at the age of 28, an achievement for someone so young to succeed in the imperial exams. However, he resigned from his official post to return home and take care of his elderly parents. He devoted a decade to this filial duty and only resumed his official career after his parents passed away and he completed the traditional mourning period.
 For those of us who feel like we have "graduated" from the workplace at 35, hold on, never give up! 
 The hopeful light will come.
- No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.`   },
+（No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.）`   },
       },
       {type: 'image',
         name: { zh: '夜市小摊', en: 'Night market stall' },
