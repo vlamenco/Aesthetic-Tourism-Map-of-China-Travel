@@ -2,9 +2,9 @@ export interface MapItem {
   type: 'link' | 'image' | 'text'
   name: { zh: string; en: string }
   value: string | { zh: string; en: string }
-  url?: string  // 可选的链接字段
-  links?: Array<{ text: string; url: string }>  //文本内的多个链接
-  description?: { zh: string; en: string }  // 图片描述
+  url?: string
+  links?: Array<{ text: string; url: string }>
+  description?: { zh: string; en: string }
 }
 
 export interface MapLocation {
@@ -22,47 +22,63 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     lng: 114.3072,
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
-     { type: 'text',
-  name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
-  value: { zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
-    en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!', },
-  links: [  // 👈 新增链接数组
-    { text: '豫州行之开封有个万岁山',  // 显示的文字 '豫州行之开封有个万岁山'
-      url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ' } ]
-},
-      { type: 'image',
+      {
+        type: 'text',
+        name: { zh: '万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
+        value: {
+          zh: '这是一篇深度游记，万岁山是全世界最棒的人造游乐场！',
+          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',
+        },
+        links: [
+          {
+            text: '豫州行之开封有个万岁山',
+            url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'
+          }
+        ]
+      },
+      {
+        type: 'image',
         name: { zh: '邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
         value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
-        description: {zh: '味道清新，造型像拿破仑的帽子。',
-    en: `Fresh taste and shaped like Napoleon's hat.
-“Impossible n'est pas français.”`},
+        description: {
+          zh: '味道清新，造型像拿破仑的帽子。',
+          en: `Fresh taste and shaped like Napoleon's hat.
+"Impossible n'est pas français."`
+        }
       },
-      {type: 'text',
+      {
+        type: 'text',
         name: { zh: '繁塔印象', en: 'Impressions of Po Tower' },
         value: {
           zh: '繁塔虽残缺，但其内壁嵌满佛像，结构透视极具"穿墙透壁"的立体几何感。',
           en: 'Although the Po Tower is partially ruined, its inner walls are embedded with countless Buddha statues, creating a striking architectural perspective.',
         },
       },
-      {type: 'image',
+      {
+        type: 'image',
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
-        description: {  zh: `宋代科举分 “解试[举人]、省试[省元]、殿试{进士:一甲：状元、榜眼、探花，赐及第;二甲：赐出身;三甲：赐同出身}” 逐级晋升。
+        description: {
+          zh: `宋代科举分 “解试[举人]、省试[省元]、殿试{进士:【一甲：状元、榜眼、探花，赐及第;二甲：赐出身;三甲：赐同出身】}” 逐级晋升。
 包青天 28岁考中进士属年少登科，但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出`,
-    en: `Fresh taste and shaped like Napoleon's hat.
-“Impossible n'est pas français.”`'},
-  },
-    ],
+          en: `The Song Dynasty imperial examination system.
+Bao Zheng passed the Jinshi exam at 28 but served his parents full-time for 10 years.`
+        },
+      }
+    ]
   },
   {
     lat: 39.9042,
     lng: 116.4074,
     cityName: { zh: '北京', en: 'Beijing' },
     items: [
-      { type: 'link',
+      {
+        type: 'link',
         name: { zh: '故宫博物院', en: 'The Forbidden City' },
-        value: 'https://www.dpm.org.cn/',},
-      { type: 'text',
+        value: 'https://www.dpm.org.cn/',
+      },
+      {
+        type: 'text',
         name: { zh: '胡同漫步', en: 'Hutong Walking' },
         value: {
           zh: '穿行于老北京的胡同之间，青砖灰瓦诉说着百年故事，四合院里的槐树依旧摇曳。',
