@@ -37,7 +37,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
      
       {type: 'image',
   name: { zh: '繁塔', en: 'Po Tower' },
-  value: `${GITHUB_IMAGE_BASE_URL}/tieta.jpg`,
+  value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
   description: {
     zh: `“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。
       外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。
@@ -48,16 +48,17 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
   }},
       {type: 'image',
   name: { zh: '铁塔', en: 'Iron Pagoda' },
-  value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
+  value: `${GITHUB_IMAGE_BASE_URL}/tieta.jpg`,
   description: {
-    zh: `参拜“天下第一塔”！铁塔前身是木塔，供奉的是吴越王钱弘俶进贡的佛舍利（982年）。后被雷火烧毁。1049 年（宋仁宗）重建，改用褐色琉璃砖。
+    zh: `参拜“天下第一塔”！
+        铁塔前身是木塔，供奉的是吴越王钱弘俶进贡的佛舍利（982年）。后被雷火烧毁。1049 年（宋仁宗）重建，改用褐色琉璃砖。
         1938年6月5日，日本鬼子打开封，对着铁塔连续炮轰，第八、九层被打个大洞。1952年毛泽东来开封，看到满身弹痕却依旧挺立的铁塔，说：“这座铁塔代表着我们中国人，日本人打不倒！”
         让人无语的是，开封和日本户田居然是友好城市？！
         （我没有大格局，这事我不同意！）`,
     en: `Paying homage to the 1️⃣"Number One Pagoda Under Heaven"! 
     The Iron Pagoda was originally a wooden structure built in 982 to enshrine the Buddha's relics tributated by King Qian Hongchu of Wuyue. It was later burned down by lightning. Reconstructed in 1049 during the reign of Emperor Renzong of the Northern Song Dynasty, it was built with brown glazed bricks.
-On June 5, 1938, Japanese invaders captured Kaifeng and bombarded the Iron Pagoda continuously, leaving large holes in the 8th and 9th floors. In 1952, Mao Zedong visited Kaifeng. Seeing the pagoda still standing despite being covered with bullet and shell marks, he said, "This Iron Pagoda represents us Chinese people. The Japanese can never defeat us!"
-What is truly frustrating is that Kaifeng is actually a sister city of Toda (Japan)?!
+    On June 5, 1938, Japanese invaders captured Kaifeng and bombarded the Iron Pagoda continuously, leaving large holes in the 8th and 9th floors. In 1952, Mao Zedong visited Kaifeng. Seeing the pagoda still standing despite being covered with bullet and shell marks, he said, "This Iron Pagoda represents us Chinese people. The Japanese can never defeat us!"
+    What is truly frustrating is that Kaifeng is actually a sister city of Toda (Japan)?!
 (I may not be broad-minded, but I strongly disagree with this!).`
   }},
       { type: 'image',
