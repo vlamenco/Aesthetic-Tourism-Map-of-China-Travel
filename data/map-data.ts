@@ -80,12 +80,11 @@ The hopeful light will come.
   },},
      {type: 'image',
         name: { zh: '黄河金鲤鱼焙面', en: 'Yellow River Golden Carp' },
-        value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.png`,
+        value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.jpg`,
         description: {  zh: `在兴中楼清真饭店吃的，金鳞赤尾（专属激光刻字），很像松子鱼酸甜口，细挂面炸成棉被轻轻地盖上。
             让我长见识了！`,
-          en: `I had 'the Carp' at Xingzhonglou Halal Restaurant. The golden Scale Red Tail (with exclusive laser engraving) was very much like the sweet and sour taste of pine nut fish.
-          The thin noodles were fried into a 'cotton quilt' and gently covered.
-          Broadened my horizons!.`   },}
+          en: `I had 'the Carp' at Xingzhonglou Halal Restaurant. The golden Scale Red Tail (with exclusive laser engraving) was very much like the sweet and sour taste of pine nut fish.The thin noodles were fried into a 'cotton quilt' and gently covered.
+          Broadened my horizons!.`},}
      
       {type: 'image',
         name: { zh: '夜市小摊', en: 'Night market stall' },
