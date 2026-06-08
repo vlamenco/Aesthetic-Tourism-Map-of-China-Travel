@@ -53,7 +53,7 @@ For those of us who feel like we have "graduated" from the workplace at 35, hold
       },
       {type: 'image',
         name: { zh: '夜市小摊', en: 'Night market stall' },
-        value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
+        value: [`${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png`,`${GITHUB_IMAGE_BASE_URL}/yeshixiaotan.jpg`],
         description: {  zh: `鼓楼 / 西司 / 老河大 夜市，我都经过了，本地人不推荐，就像大部分出名的古镇，没太多特色，年轻人打卡凑热闹还行，老外估计比较喜欢。`,
           en: `I have passed by the night markets at Gulou, Xisi and Old Henan University. Foreigners can come over to experience the lively alleyways and unique late-night snack culture. 
           The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`   },
