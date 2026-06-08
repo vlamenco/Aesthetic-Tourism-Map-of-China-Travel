@@ -47,12 +47,10 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       {type: 'image',
         name: { zh: '包拯', en: 'Bao Zheng' },
         value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
-        description: { zh: '宋代科举分“解试[举人]、省试[省元]、殿试{进士:一甲：状元、榜眼、探花，赐 及第;
-        二甲：赐出身;
-        三甲：赐同出身}” 逐级晋升。
+        description: { zh: '宋代科举分 “解试[举人]、省试[省元]、殿试{进士:一甲：状元、榜眼、探花，赐 及第;二甲：赐出身;三甲：赐同出身}” 逐级晋升。
    包青天 28岁考中进士属年少登科，但他因父母年迈，放弃官职回乡侍奉，长达十年，直至双亲离世、守孝期满才复出',
     en: `Fresh taste and shaped like Napoleon's hat.
-“Impossible n'est pas français.”`,,
+“Impossible n'est pas français.”`'},
   },
     ],
   },
