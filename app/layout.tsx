@@ -11,9 +11,9 @@ const notoSerifSC = Noto_Serif_SC({
 
 export const metadata: Metadata = {
   title: 'INFJ + INFP的中国旅游审美小众地图 | A Niche Aesthetic Travel Map of China for INFJ + INFP',
-  description: 'infj infp 的印象中国，大美中国，小众新奇，游乐园',
+  description: 'infj infp 的印象中国，大美中国，小众新奇，游乐园，人文风俗',
   generator: 'v0.app',
-  keywords: ['中国旅游', '中国审美地图', '旅游攻略', 'China Travel', 'China Aesthetic Map', 'niche travel', 'INFJ', 'INFP'],
+  keywords: ['中国旅游', '中国审美地图', '旅游攻略', 'China Travel', 'China Aesthetic Map', 'human customs', 'niche travel', 'INFJ', 'INFP'],
   icons: {
     icon: [
       {
