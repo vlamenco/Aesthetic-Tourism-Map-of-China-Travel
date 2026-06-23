@@ -134,7 +134,7 @@ export default function SidePanel({
             href="https://www.xiaohongshu.com/user/profile/68e75447000000003201e50d"
             target="_blank"
             rel="noopener noreferrer"
-            title="(Xiaohongshu"
+            title="Xiaohongshu"
           >
             <i className="fa-solid fa-book-bookmark" />
           </a>
