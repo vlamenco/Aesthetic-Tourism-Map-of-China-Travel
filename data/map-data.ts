@@ -85,9 +85,8 @@ The hopeful light will come.
             下方上圆，中原 “天圆地方” 礼制 + 蒙古包穹顶造型结合。
             注意看 琉璃屋脊雕刻了 蒙古骑狮武士、西域胡人，汉人被骑头上了（无奈）。北方之神玄武在元朝被推至为最重要的神，能感受到铁骑的bangbangbang吗？`,
     en: `The only surviving ancient architectural complex of the Yuan Dynasty in Kaifeng, and the sole Taoist architecture in China blending Han汉 and Mongolian蒙 styles.
-It features a square base and a circular upper section, integrating the Central Plains ritual concept of "heaven is round and earth is square" with the dome shape of Mongolian yurts.
-Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, Western Regions foreigners, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`
-  }},
+    It features a square base and a circular upper section, integrating the Central Plains ritual concept of "heaven is round and earth is square" with the dome shape of Mongolian yurts.
+    Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, Western Regions foreigners, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`}},
       
      {type: 'image',
         name: { zh: '黄河金鲤鱼焙面', en: 'Yellow River Golden Carp' },
