@@ -83,10 +83,30 @@ The hopeful light will come.
   value: `${GITHUB_IMAGE_BASE_URL}/yanqingguan.jpg`,
   description: { zh: `开封唯一留存的元代古建筑群，国内唯一汉+蒙融合的道教建筑。
             下方上圆，中原 “天圆地方” 礼制 + 蒙古包穹顶造型结合。
-            注意看 琉璃屋脊雕刻了 蒙古骑狮武士、西域胡人，汉人被骑头上了（无奈）。北方之神玄武在元朝被推至为最重要的神，能感受到铁骑的bangbangbang吗？`,
+            注意看 琉璃屋脊雕刻了 蒙古骑狮武士、西域胡人，汉人被骑头上了（无奈）。北方之神“玄武”在元朝被推至为最重要的神，能感受到铁骑的bangbangbang吗？`,
     en: `The only surviving ancient architectural complex of the Yuan Dynasty in Kaifeng, and the sole Taoist architecture in China blending Han汉 and Mongolian蒙 styles.
     It features a square base and a circular upper section, integrating the Central Plains ritual concept of "heaven is round and earth is square" with the dome shape of Mongolian yurts.
-    Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, Western Regions foreigners, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`}},
+    Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`}},
+     
+            { type: 'image',
+  name: { zh: '大相国寺', en: 'Daxiangguo Temple' },
+  value: `${GITHUB_IMAGE_BASE_URL}/daxiangguosi.jpg`,
+  description: { zh: `景云元年（710），韦后毒杀唐中宗，李隆基联合太平公主发动唐隆政变，诛杀韦氏一党，拥立相王李旦第二次登基，即唐睿宗。
+    次年延和元年（712），睿宗忆自己数十年 “相王” 藩王身份入继大统的经历，下诏将汴梁新建的建国寺改名大相国寺，并亲笔题写寺额。 
+    据说鲁智深出家于此，看管菜园，发生了“鲁智深倒拔垂杨柳”的典故。 
+    大雄宝殿（清） —— 中原第一殿，重檐歇山顶是皇家寺院最高等级殿宇形制，虽然它的年代只有300多年，但从古建筑造型看确实极其华丽。
+    八角琉璃殿 里有整株千年银杏雕刻的千手千眼观音像，非常震撼，香火鼎旺。`,
+    en: `In 710 year, Empress Wei韦后 poisoned Emperor Tang Zhongzong唐中宗. Li Longji李隆基 and Princess Taiping太平公主, launched the Tanglong Coup, executed all followers of the Wei clan, and installed Li Dan李旦 on the throne for the second time as Emperor Tang Ruizong唐睿宗.
+
+The following year (712), recalling his decades-long experience ascending the throne as a regional prince相王, Emperor Ruizong issued an imperial edict to rename the newly built Jianguo Temple in Bianliang（Kaifeng） as Daxiangguo Temple and personally inscribed the temple plaque.
+
+Little Story：
+·It is said that Lu Zhishen鲁智深 （All Men Are Brothers: Water Margin《水浒传》） became a monk here and took charge of the vegetable garden, where the well-known tale "Lu Zhishen Uproots a Willow Tree" took place.
+
+·Mahavira Hall (Qing Dynasty) – hailed as the No.1 Hall in the Central Plains. Its double-eaved hip-and-gable roof represents the highest architectural rank for halls in imperial monasteries. Though it is merely over 300 years old, still extraordinarily magnificent!
+
+·The Octagonal Glazed Hall houses a statue of the Thousand-Handed and Thousand-Eyed Guanyin carved from an entire ginkgo tree, which presents a stunning sight and draws an endless stream of worshippers.`}},
+
       
      {type: 'image',
         name: { zh: '黄河金鲤鱼焙面', en: 'Yellow River Golden Carp' },
