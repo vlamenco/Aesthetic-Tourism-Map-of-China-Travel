@@ -90,8 +90,8 @@ export default function SidePanel({
 
         {!panelContent.type && (
           <div className="flex h-full items-center justify-center p-6 text-center text-muted-foreground">
-            <p>{currentLang === 'zh' ? 'INFJ与INFP从不隶属于任何标签，我们虽身处同一片空间，但各自有神奇的小宇宙，欢迎来到我们的结界👈。' : 
-              'INFJs and INFPs never belong to any labels. Though we stay in the same space, each of us has a wonderful inner world. Welcome to our magical world👈.'}</p>
+            <p>{currentLang === 'zh' ? '欢迎来到INFJ与INFP的小宇宙，探索中国的大好河山，人文风情👈。' : 
+              'Welcome to the little universe of INFJs and INFPs, where we explore China’s magnificent landscapes and profound cultural customs👈.'}</p>
           </div>
         )}
       </div>
@@ -99,7 +99,7 @@ export default function SidePanel({
       {/* 社交媒体区域 - 固定在底部 */}
       <div className="border-t border-accent/30 bg-white/90 px-6 py-4 flex-shrink-0">
         <p className="mb-3 text-center text-sm text-muted-foreground">
-          {currentLang === 'zh' ? '找我玩' : 'Another Me'}
+          {currentLang === 'zh' ? '找我玩' : 'Come play with me'}
         </p>
         <div className="flex justify-center gap-8">
           <a
