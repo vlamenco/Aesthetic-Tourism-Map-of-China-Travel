@@ -76,8 +76,19 @@ Bao Zheng passed the Jinshi examination at the age of 28, an achievement for som
 He devoted a decade to this filial duty and only resumed his official career after his parents passed away and he completed the traditional mourning period.
 For those of us who feel like we have "graduated" from the workplace at 35, hold on, never give up!
 The hopeful light will come.
-(No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.)`
-  },},
+(No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.)`}},
+
+       { type: 'image',
+  name: { zh: '延庆观', en: 'Yanqing Taoist Temple' },
+  value: `${GITHUB_IMAGE_BASE_URL}/yanqingguan.jpg`,
+  description: { zh: `开封唯一留存的元代古建筑群，国内唯一汉+蒙融合的道教建筑。
+            下方上圆，中原 “天圆地方” 礼制 + 蒙古包穹顶造型结合。
+            注意看 琉璃屋脊雕刻了 蒙古骑狮武士、西域胡人，汉人被骑头上了（无奈）。北方之神玄武在元朝被推至为最重要的神，能感受到铁骑的bangbangbang吗？`,
+    en: `The only surviving ancient architectural complex of the Yuan Dynasty in Kaifeng, and the sole Taoist architecture in China blending Han汉 and Mongolian蒙 styles.
+It features a square base and a circular upper section, integrating the Central Plains ritual concept of "heaven is round and earth is square" with the dome shape of Mongolian yurts.
+Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, Western Regions foreigners, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`
+  }},
+      
      {type: 'image',
         name: { zh: '黄河金鲤鱼焙面', en: 'Yellow River Golden Carp' },
         value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.jpg`,
@@ -92,14 +103,14 @@ It broadened my horizons!`}},
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png`,
         description: {  zh: `鼓楼 / 西司 / 老河大 夜市，我都经过了，本地人不推荐，就像大部分出名的古镇，没太多特色，年轻人打卡凑热闹还行，老外估计比较喜欢。`,
     en: `I have passed by the night markets at Gulou, Xisi and Old Henan University. Foreigners can come over to experience the lively alleyways and unique late-night snack culture. 
-    The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`},}
+    The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`}},
    
     {type: 'image',
         name: { zh: '开封府', en: 'Kaifeng Prefecture' },
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengfu.jpg`,
-        description: {  zh: `一个新建的景点，没有玩的吃的，纯纯n：1仿造，在清心楼登高望远包公湖时，才觉得这票价值3折`,
-    en: `A newly built scenic spot with no entertainment facilities or food stalls; The area is an 1:5 replica of Song dynasty. 
-         Only when climbing up the Pure Heart Tower to overlook Baogong Lake did I feel the ticket price is worth a 70% discount off the original price.`}},
+        description: {  zh: `一个新建的景点，没有玩的吃的，纯纯n:1仿造，在清心楼登高望远包公湖时，才觉得这票价值3折.`, 
+           en: `A newly built scenic spot with no entertainment facilities or food stalls; The area is an 1:5 replica of Song dynasty. 
+             Only when climbing up the Pure Heart Tower to overlook Baogong Lake did I feel the ticket price is worth a 70% discount off the original price.`},},
       
     ]},
   {
