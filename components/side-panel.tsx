@@ -91,7 +91,7 @@ export default function SidePanel({
         {!panelContent.type && (
           <div className="flex h-full items-center justify-center p-6 text-center text-muted-foreground">
             <p>{currentLang === 'zh' ? '欢迎来到INFJ与INFP的小宇宙，探索中国的大好河山，人文风情👈。' : 
-              'Welcome to the little universe of INFJs and INFPs, where we explore China’s magnificent landscapes and profound cultural customs👈.'}</p>
+              'Welcome to the little universe of INFJs and INFPs, where we explore China's magnificent landscapes and profound cultural customs👈.'}</p>
           </div>
         )}
       </div>
@@ -134,7 +134,7 @@ export default function SidePanel({
             href="https://www.xiaohongshu.com/user/profile/68e75447000000003201e50d"
             target="_blank"
             rel="noopener noreferrer"
-            title="Red book"
+            title="(Xiaohongshu"
           >
             <i className="fa-solid fa-book-bookmark" />
           </a>
