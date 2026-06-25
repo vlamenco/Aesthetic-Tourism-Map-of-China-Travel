@@ -2,6 +2,8 @@ import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Noto_Serif_SC } from 'next/font/google'
 import './globals.css'
+import Script from 'next/script'
+import GAClientTracker from './components/GAClientTracker'
 
 const notoSerifSC = Noto_Serif_SC({
   subsets: ['latin'],
@@ -45,6 +47,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+
   return (
     <html lang="zh-CN" className="bg-background">
       <head>
@@ -58,6 +62,19 @@ export default function RootLayout({
         />
       </head>
       <body className={`${notoSerifSC.variable} font-sans antialiased`}>
+        {GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_ID}', { page_path: window.location.pathname });`}
+            </Script>
+            <GAClientTracker />
+          </>
+        )}
+
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
