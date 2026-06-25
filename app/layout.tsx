@@ -65,11 +65,11 @@ export default function RootLayout({
         {GA_ID && (
           <>
             <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              src={`https://www.googletagmanager.com/gtag/js?id=G-XHVMFK1Z1H`}
               strategy="afterInteractive"
             />
             <Script id="gtag-init" strategy="afterInteractive">
-              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_ID}', { page_path: window.location.pathname });`}
+              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XHVMFK1Z1H', { page_path: window.location.pathname });`}
             </Script>
             <GAClientTracker />
           </>
