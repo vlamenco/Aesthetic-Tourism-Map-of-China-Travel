@@ -62,18 +62,22 @@ export default function RootLayout({
         />
       </head>
       <body className={`${notoSerifSC.variable} font-sans antialiased`}>
-        {GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=G-XHVMFK1Z1H`}
-              strategy="afterInteractive"
-            />
-            <Script id="gtag-init" strategy="afterInteractive">
-              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XHVMFK1Z1H', { page_path: window.location.pathname });`}
-            </Script>
-            <GAClientTracker />
-          </>
-        )}
+        {/* 移除了 GA_ID && 的限制，让 Google 统计代码直接常驻加载 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XHVMFK1Z1H"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XHVMFK1Z1H', { page_path: window.location.pathname });
+          `}
+        </Script>
+        
+        {/* 这里保留你原本的客户端路由追踪器组件 */}
+        <GAClientTracker />
 
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
