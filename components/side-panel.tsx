@@ -92,6 +92,8 @@ export default function SidePanel({
           <div className="flex h-full items-center justify-center p-6 text-center text-muted-foreground">
             <p>{currentLang === 'zh' ? '欢迎来到INFJ与INFP的小宇宙，探索中国的大好河山，人文风情👈。' : 
               'Welcome to the little universe of INFJs and INFPs, where we explore China’s magnificent landscapes and profound cultural customs👈.'}</p>
+
+            <p className="mt-2 text-sm text-red-500"> {currentLang === 'zh' ? '注： A➡景点🏞；B➡食物🍱；C➡人物🤝' : 'Notice： A➡Tourist spot🏞；B➡food🍱；C➡Celebrity🤝'} </p>    
           </div>
         )}
       </div>
