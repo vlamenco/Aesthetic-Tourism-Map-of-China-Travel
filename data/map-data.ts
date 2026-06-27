@@ -23,14 +23,14 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
       {type: 'text',
-        name: { zh: 'A1.万岁山大宋武侠城', en: 'The Song Dynasty Of Kungfu City' },
+        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.The Song Dynasty Of Kungfu City' },
         value: { zh: '开封深度游记，万岁山是全世界最棒的人造游乐场！',
           en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',},
         links: [{text: '豫州行之开封有个万岁山',
             url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'}]},
 
       {type: 'image',
-  name: { zh: 'A2.繁塔', en: 'Po Tower' },
+  name: { zh: 'A2.繁塔', en: 'A2.Po Tower' },
   value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
   description: {
     zh: `“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。
@@ -41,7 +41,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.`
   }},
       {type: 'image',
-  name: { zh: 'A3.铁塔', en: 'Iron Pagoda' },
+  name: { zh: 'A3.铁塔', en: 'A3.Iron Pagoda' },
   value: `${GITHUB_IMAGE_BASE_URL}/tieta.jpg`,
   description: {
     zh: `参拜“天下第一塔”！
@@ -57,7 +57,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
   }},
      
        { type: 'image',
-  name: { zh: 'A4.延庆观', en: 'Yanqing Taoist Temple' },
+  name: { zh: 'A4.延庆观', en: 'A4.Yanqing Taoist Temple' },
   value: `${GITHUB_IMAGE_BASE_URL}/yanqingguan.jpg`,
   description: { zh: `开封唯一留存的元代古建筑群，国内唯一汉+蒙融合的道教建筑。
         下方上圆，中原 “天圆地方” 礼制 + 蒙古包穹顶造型结合。
@@ -67,7 +67,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`}},
      
             { type: 'image',
-  name: { zh: 'A5.大相国寺', en: 'Daxiangguo Temple' },
+  name: { zh: 'A5.大相国寺', en: 'A5.Daxiangguo Temple' },
   value: `${GITHUB_IMAGE_BASE_URL}/daxiangguosi.jpg`,
   description: { zh: ` ·景云元年（710），韦后毒杀唐中宗，李隆基联合太平公主发动唐隆政变，诛杀韦氏一党，拥立相王李旦第二次登基，即唐睿宗。
     次年延和元年（712），睿宗忆自己数十年 “相王” 藩王身份入继大统的经历，下诏将汴梁新建的建国寺改名大相国寺，并亲笔题写寺额。 
@@ -86,7 +86,7 @@ Little Story：
 ·The Octagonal Glazed Hall houses a statue of the Thousand-Handed and Thousand-Eyed Guanyin carved from an entire ginkgo tree, which presents a stunning sight and draws an endless stream of worshippers.`}},
     
        { type: 'image',
-  name: { zh: 'A6.山陕甘会馆', en: 'Shaanxi-Shanxi-Gansu Guild Hall' },
+  name: { zh: 'A6.山陕甘会馆', en: 'A6.Shaanxi-Shanxi-Gansu Guild Hall' },
   value: `${GITHUB_IMAGE_BASE_URL}/shanshanganduilian.jpg`,
   description: { zh: `建于清乾隆三十一年（1766 年），原址是明代开国功臣徐达府邸，既是三省同乡商会议事场所，也供奉关公，主打 “忠义经商” 理念，号称北方第一会馆。
       看古建筑的 照壁，中间是蜘蛛🕷，表示吐丝编织细密大网，八条蛛足聚拢财源、兼顾四方客商。关公看了不知作何感想？
@@ -104,28 +104,28 @@ Adore the couplet: "Crowded you are, crowded I am; scarce space is left for anyo
 Watch the good, watch the bad; every soul shall meet their final end."`}},
     
     {type: 'image',
-        name: { zh: 'A7.夜市小摊', en: 'Night market stall' },
+        name: { zh: 'A7.夜市小摊', en: 'A7.Night market stall' },
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png`,
         description: {  zh: `鼓楼 / 西司 / 老河大 夜市，我都经过了，本地人不推荐，就像大部分出名的古镇，没太多特色，年轻人打卡凑热闹还行，老外估计比较喜欢。`,
     en: `I have passed by the night markets at Gulou, Xisi and Old Henan University. Foreigners can come over to experience the lively alleyways and unique late-night snack culture. 
     The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`}},
    
     {type: 'image',
-        name: { zh: 'A8.开封府', en: 'Kaifeng Prefecture' },
+        name: { zh: 'A8.开封府', en: 'A8.Kaifeng Prefecture' },
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengfu.jpg`,
         description: {  zh: `一个新建的景点，没有玩的吃的，纯纯n:1仿造，在清心楼登高望远包公湖时，才觉得这票价值3折.`, 
            en: `A newly built scenic spot with no entertainment facilities or food stalls; The area is an 1:5 replica of Song dynasty. 
              Only when climbing up the Pure Heart Tower to overlook Baogong Lake did I feel the ticket price is worth a 70% discount off the original price.`},},
   
       {type: 'image',
-        name: { zh: 'B1.邢家锅贴', en: 'Xing Guokui (Crispy Flatbread)' },
+        name: { zh: 'B1.邢家锅贴', en: 'B1.Xing Guokui (Crispy Flatbread)' },
         value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
         description: { zh: '味道清新，造型像拿破仑的帽子。',
           en: `Fresh taste and shaped like Napoleon's hat.
 "Impossible n'est pas français."`} },
     
      {type: 'image',
-        name: { zh: 'B2.黄河金鲤鱼焙面', en: 'Yellow River Golden Carp' },
+        name: { zh: 'B2.黄河金鲤鱼焙面', en: 'B2.Yellow River Golden Carp' },
         value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.jpg`,
         description: {  zh: `在兴中楼清真饭店吃的，金鳞赤尾（专属激光刻字），很像松子鱼酸甜口，细挂面炸成棉被轻轻地盖上。让我长见识了！`,
     en: `I had the carp at Xingzhonglou Halal Restaurant. It has golden scales and a red tail with exclusive laser engraving. 
@@ -134,7 +134,7 @@ Thin noodles are fried fluffy and covered gently on top.
 It broadened my horizons!`}},
 
        { type: 'image',
-  name: { zh: 'C1.包拯', en: 'Bao Zheng' },
+  name: { zh: 'C1.包拯', en: 'C1.Bao Zheng' },
   value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
   description: { zh: `宋代科举分 “解试【举人】、省试【省元】、殿试{进士:【一甲：状元、榜眼、探花，赐及第;
 二甲：赐出身;
