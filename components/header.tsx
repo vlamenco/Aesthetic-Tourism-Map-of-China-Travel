@@ -62,7 +62,7 @@ export default function Header({ currentLang, onToggleLanguage }: HeaderProps) {
             }}
           />
         ) : (
-          <span className="font-bold text-primary">vlamenco@foxmail.com</span>
+          <span className="font-bold text-primary text-[10px]">vlamenco@foxmail.com【姜知了】</span>
         )}
       </div>
     </header>
