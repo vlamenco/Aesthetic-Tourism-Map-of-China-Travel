@@ -89,7 +89,7 @@ export default function SidePanel({
         )}
 
       {!panelContent.type && (
-  <div className="flex items-center items-center justify-center p-6 text-center text-muted-foreground space-y-8">  {/* space-y-2 */}  
+  <div className="flex flex-col items-center justify-center p-6 text-center text-muted-foreground space-y-8">  {/* space-y-2 */}  
     <p>
       {currentLang === 'zh'? '欢迎来到INFJ与INFP的小宇宙，探索中国的大好河山，人文风情👈。'
         : 'Welcome to the little universe of INFJs and INFPs, where we explore China’s magnificent landscapes and profound cultural customs👈.'}
