@@ -161,16 +161,35 @@ The hopeful light will come.
 
     {type: 'text',
         name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery' },
-        value: { zh: `汴绣，也称**宋绣**，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。`,
+        value: { zh: `汴绣，也称'宋绣'，为中国十大名绣之一。《东京梦华录》记载，其专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。
+          1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。
+          不过我更喜欢广绣，色彩再靓丽点~`,
           en: `Also known as Song Embroidery, ranks among China’s Top Ten Famous Embroideries.
-    According to Dongjing Meng Hua Lu, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, 
-                hence earning it the reputation of "Official Embroidery".
-    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and 
-                  other items as souvenirs. Known as "portable aesthetics of the Central Plains", 
-                these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.`},
+    According to *Dongjing Meng Hua Lu*, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, hence earning it the reputation of "Official Embroidery".
+    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. 
+      You can choose bookmarks (~70￥), round silk fans, ornaments and other items as souvenirs. 
+      Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.`},
        links: [{text: 'Threading a path through time', url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
 
+    {type: 'text',
+        name: { zh: 'D2.朱仙镇木版年画', en: 'D2.Zhuxian Town Woodblock New Year Paintings' },
+        value: { zh: `据孟元老《东京梦华录》记载，当时“市井皆印卖门神、钟馗、桃符及财神”等，其风格鲜明，以矿物、植物手工磨制颜料，多用青、黄、红三原色，色彩明快鲜艳，有乡土味。`,
+          en: `As recorded in *Dongjing Meng Hua Lu* by Meng Yuanyou, "door gods, Zhong Kui, peachwood charms and God of Wealth prints were all sold in markets". 
+          These prints featured a distinctive style, with pigments hand-ground from minerals and plants. Predominantly using the three primary colors of cyan, yellow and red, they boast bright, vivid hues brimming with rustic charm.
+          You can buy a Refrigerator magnets or decorative paintings carry an intangible cultural heritage with a history of over 1000 years.`},
+       links: [{text: '木版年画', url: 'https://www.bilibili.com/video/BV1xB421r7uT/?vd_source=2ce4bbe44dc7454a15293090b00b4edc'}]},   
 
+        {type: 'text',
+        name: { zh: 'D3.菊花节', en: 'D3.Chrysanthemum Festival' },
+        value: { zh: `开封素有“菊城”之称，种植历史超1500年，自1983年起创办开封菊花节，每年10月18日正式开幕，展期通常持续一个月，全市会展出超过280万盆菊花。
+            菊花糕、菊花茶与菊花酒都是广受喜爱的特色美食。
+            和我的家乡中山小榄很像啊，每年都有菊花展，怪不得我很喜欢开封！`,
+          en: `Known as the "City of Chrysanthemums," Kaifeng has a chrysanthemum cultivation history spanning over 1,500 years, with the festival itself beginning in 1983.
+          Officially opens on October 18 each year and generally runs about 1 month.
+           Over 2.8 million pots of chrysanthemums were exhibited city-wide.
+           Chrysanthemum cakes, chrysanthemum tea, and chrysanthemum wine are popular treats.
+           It’s so similar to my hometown Xiaolan in Zhongshan, which also holds a chrysanthemum exhibition every year. No wonder I love Kaifeng so much!`},
+       links: [{text: '来开封看菊花吧！', url: 'https://www.bilibili.com/video/BV1tq4y1G7rg/?spm_id_from=333.337.search-card.all.click&vd_source=2ce4bbe44dc7454a15293090b00b4edc'}]},   
 
      
     ]},
