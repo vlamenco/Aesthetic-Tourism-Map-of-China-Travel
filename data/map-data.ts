@@ -40,19 +40,10 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       
       Historical Origin：Wansui Mountain drained wealth from all the nine provinces, By Bian’s dykes, ten thousand souls still grieve. Since ancient times, many kingdoms fell in the Central Plains, Who knew it was stones that brought the Song to its end? （万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？）`}},
     
-      {/* 链接🔗
-            {type: 'text',
-        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.The Song Dynasty Of Kungfu City' },
-        value: { zh: '开封深度游记，万岁山是全世界最棒的人造游乐场！',
-          en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',},
-        links: [{text: '豫州行之开封有个万岁山',
-            url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'}]},  */}
-  
       {type: 'image',
   name: { zh: 'A2.繁塔', en: 'A2.Po Tower' },
   value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
-  description: {
-    zh: `“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。
+  description: {zh: `“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。
       外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。
       上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。`,
     en: `The Iron Pagoda only reaches the waist of the Po Tower. So the Po Tower is the real highlight. Shaped like an imperial jade seal, this hexagonal pagoda stands merely three stories tall. Even in its incomplete state, it remains breathtakingly beautiful, situated outside the ancient city wall. 
@@ -170,11 +161,11 @@ The hopeful light will come.
 
     {type: 'text',
         name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery' },
-        value: { zh: `汴绣，也称**宋绣**，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。`,
-          en: `Also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries.
+        value: { zh: '汴绣，也称**宋绣**，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。',
+          en: 'Also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries.
     According to Dongjing Meng Hua Lu, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, hence earning it the reputation of "Official Embroidery".
-    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.`,
-             links: [{text: 'Threading a path through time', url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
+    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.'},
+       links: [{text: 'Threading a path through time', url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
 
 
 
