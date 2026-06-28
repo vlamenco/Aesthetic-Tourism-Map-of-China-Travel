@@ -170,13 +170,15 @@ The hopeful light will come.
 
     {type: 'text',
         name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery' },
-        value: { zh: '汴绣，也称**宋绣**，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。',
-          en: 'Bian Embroidery, also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries.
+        value: { zh: '汴绣，也称**宋绣**，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。`,
+          en: `Bian Embroidery, also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries.
     According to Dongjing Meng Hua Lu, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, hence earning it the reputation of "Official Embroidery".
-    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.',
-            url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
- 
-      
+    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.`,
+             links: [{text: 'Threading a path through time', url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
+
+
+
+     
     ]},
  
 
