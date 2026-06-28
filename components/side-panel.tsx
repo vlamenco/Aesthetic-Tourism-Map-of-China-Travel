@@ -96,7 +96,7 @@ export default function SidePanel({
     </p>
 
     <p className="text-sm text-green-400 mt-8">
-      {currentLang === 'zh'? '注： A➡景点🏞；B➡食物🍱；C➡人物🤝' : 'Notice： A➡Tourist spot🏞；B➡food🍱；C➡Celebrity🤝'}
+      {currentLang === 'zh'? '注： A➡景点🌄；B➡食物🍱；C➡人物🤝 D➡礼物🎁' : 'Notice： A➡Tourist spot🌄；B➡food🍱；C➡Celebrity🤝 D➡Gift🎁'}
     </p>
   </div>
 )}
