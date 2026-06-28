@@ -16,7 +16,7 @@ const MapContainer = dynamic(() => import('@/components/map-container'), {
 })
 
 export default function Home() {
-  const [currentLang, setCurrentLang] = useState<'zh' | 'en'>('zh')
+  const [currentLang, setCurrentLang] = useState<'zh' | 'en'>('en')
   const [panelContent, setPanelContent] = useState<{
     type: 'text' | 'image' | null
     title: string
