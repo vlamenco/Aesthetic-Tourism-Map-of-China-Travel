@@ -170,21 +170,12 @@ The hopeful light will come.
 
     {type: 'text',
         name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery' },
-        value: { zh: '汴绣，也称宋绣，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。',
-          en: 'Bian Embroidery, also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries. 
-              According to *Dongjing Meng Hua Lu*, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, hence earning it the reputation of "Official Embroidery". 
-              In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.',},
-        links: [{text: 'Threading a path through time',
+        value: { zh: '汴绣，也称**宋绣**，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。',
+          en: 'Bian Embroidery, also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries.
+    According to Dongjing Meng Hua Lu, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, hence earning it the reputation of "Official Embroidery".
+    In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.',
             url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
-
-      {/*  {type: 'image',
-        name: { zh: 'B2.黄河金鲤鱼焙面', en: 'B2.Yellow River Golden Carp' },
-        value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.jpg`,
-        description: {  zh: `在兴中楼清真饭店吃的，金鳞赤尾（专属激光刻字），很像松子鱼酸甜口，细挂面炸成棉被轻轻地盖上。让我长见识了！`,
-    en: `I had the carp at Xingzhonglou Halal Restaurant. It has golden scales and a red tail with exclusive laser engraving. 
-    tastes like sweet and sour pine nut fish.
-Thin noodles are fried fluffy and covered gently on top. 
-It broadened my horizons!`}},     /*}
+ 
       
     ]},
  
