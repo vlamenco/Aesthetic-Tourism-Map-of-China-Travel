@@ -22,13 +22,32 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     lng: 114.3072,
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
-      {type: 'text',
+      {type: 'image',
+        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.Wansui Mountain (The Song Dynasty Of Kungfu City)' },
+        value: `${GITHUB_IMAGE_BASE_URL}/wansuishandatiehua.jpg`,
+        description: {zh: `万岁山是全世界最棒的人造游乐场！没有之一！
+        音乐岛有内蒙古的马头琴和呼麦表演，有动物园，仙侠幻境城，王婆说媒，二娘的秀，武侠岛，神州广场的打铁花把我深深感动，仿佛他们要为我摘下天上最亮的星星……
+        天南地北的中国非遗表演能在这里遇到！  
+        所有演员、npc都极为敬业和专业，刮起沙城暴，下起大雨都在岗位坚守。并且质量很好的一次性雨衣只要7块！可口可乐也只要3块！一张100块的门票能随意出入玩3天！童叟无欺！
+        
+        《无题》 元・郝经
+        万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？`,
+    en: `Wansui Mountain is the best man-made amusement park in the world, bar none! On Music Island, there are performances of the Inner Mongolian horsehead fiddle and khoomei. The park also houses a zoo, a Xianxia Fantasy City, Aunt Wang's Matchmaking Show, Second Madam's Stage Show, and a Martial Arts Island……
+      Chinese intangible cultural heritage performances from all across the country can be enjoyed here!
+      The molten iron fireworks show at Divine Land Square moved me deeply, as if they were about to pluck the brightest star from the sky just for me...
+      All performers and NPCs are extremely dedicated and professional, sticking firmly to their posts even during sandstorms and heavy rain. 
+      What's more, high-quality disposable raincoats cost only 7￥, and a bottle of Coca-Cola is merely 3￥! A 100￥ ticket grants unlimited entry for three full days, with fair pricing for all visitors, young and old alike!
+      
+      Historical Origin：Wansui Mountain drained wealth from all the nine provinces, By Bian’s dykes, ten thousand souls still grieve. Since ancient times, many kingdoms fell in the Central Plains, Who knew it was stones that brought the Song to its end? （万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？）`}},
+    
+      {/* 链接🔗
+            {type: 'text',
         name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.The Song Dynasty Of Kungfu City' },
         value: { zh: '开封深度游记，万岁山是全世界最棒的人造游乐场！',
           en: 'a deep travelogue. Wansui Mountain is the best artificial amusement park in the world!',},
         links: [{text: '豫州行之开封有个万岁山',
-            url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'}]},
-
+            url: 'https://mp.weixin.qq.com/s/knxsAyl3A43Ku_LET1zIhQ'}]},  */}
+  
       {type: 'image',
   name: { zh: 'A2.繁塔', en: 'A2.Po Tower' },
   value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
@@ -38,8 +57,8 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       上至皇族、达官贵人，下至平民百姓都可以与它连接，朴素的心愿在这108种，近7000尊 法相庄严的菩萨、罗汉、乐伎等形象中，众志成城。`,
     en: `The Iron Pagoda only reaches the waist of the Po Tower. So the Po Tower is the real highlight. Shaped like an imperial jade seal, this hexagonal pagoda stands merely three stories tall. Even in its incomplete state, it remains breathtakingly beautiful, situated outside the ancient city wall. 
       Each carved brick carries people\'s aspirations, prayers and remembrances. From imperial families and high-ranking officials down to ordinary folk, everyone has a bond with this pagoda. 
-      Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.`
-  }},
+      Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.`}},
+      
       {type: 'image',
   name: { zh: 'A3.铁塔', en: 'A3.Iron Pagoda' },
   value: `${GITHUB_IMAGE_BASE_URL}/tieta.jpg`,
@@ -53,8 +72,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     The Iron Pagoda was originally a wooden structure built in 982 to enshrine the Buddha's relics tributated by King Qian Hongchu of Wuyue. It was later burned down by lightning. Reconstructed in 1049 during the reign of Emperor Renzong of the Northern Song Dynasty, it was built with brown glazed bricks.
     On June 5, 1938, Japanese invaders captured Kaifeng and bombarded the Iron Pagoda continuously, leaving large holes in the 8th and 9th floors. In 1952, Mao Zedong visited Kaifeng. Seeing the pagoda still standing despite being covered with bullet and shell marks, he said, "This Iron Pagoda represents us Chinese people. The Japanese can never defeat us!"
     What is truly frustrating is that Kaifeng is actually a sister city of Toda (Japan)?!
-(I may not be broad-minded, but I strongly disagree with this!).`
-  }},
+(I may not be broad-minded, but I strongly disagree with this!).`}},
      
        { type: 'image',
   name: { zh: 'A4.延庆观', en: 'A4.Yanqing Taoist Temple' },
@@ -150,8 +168,28 @@ For those of us who feel like we have "graduated" from the workplace at 35, hold
 The hopeful light will come.
 (No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.)`}},
 
+    {type: 'text',
+        name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery' },
+        value: { zh: '汴绣，也称宋绣，为中国十大名绣之一。《东京梦华录》记载，其是专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。',
+          en: 'Bian Embroidery, also known as Song Embroidery, ranks among China's Top Ten Famous Embroideries. 
+              According to *Dongjing Meng Hua Lu*, it was specially used to make official robes and decorative articles for nobles and high-ranking officials of the Song Dynasty, hence earning it the reputation of "Official Embroidery". 
+              In 1982, a total of 36 traditional and newly developed stitching techniques were sorted out. Tourists can choose bookmarks, round silk fans, ornaments and other items as souvenirs. Known as "portable aesthetics of the Central Plains", these handicrafts are available for purchase along the Imperial Street of the Song Capital宋都御街 or at various cultural and creative stores.',},
+        links: [{text: 'Threading a path through time',
+            url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
+
+      {/*  {type: 'image',
+        name: { zh: 'B2.黄河金鲤鱼焙面', en: 'B2.Yellow River Golden Carp' },
+        value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.jpg`,
+        description: {  zh: `在兴中楼清真饭店吃的，金鳞赤尾（专属激光刻字），很像松子鱼酸甜口，细挂面炸成棉被轻轻地盖上。让我长见识了！`,
+    en: `I had the carp at Xingzhonglou Halal Restaurant. It has golden scales and a red tail with exclusive laser engraving. 
+    tastes like sweet and sour pine nut fish.
+Thin noodles are fried fluffy and covered gently on top. 
+It broadened my horizons!`}},     /*}
       
     ]},
+ 
+
+  
   {
     lat: 39.9042,
     lng: 116.4074,
