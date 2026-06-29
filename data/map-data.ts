@@ -24,7 +24,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
       {type: 'image',
-        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.Wansui Mountain (The Song Dynasty Of Kungfu City)万岁山' },
+        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.Wansui Mountain万岁山 (The Song Dynasty Of Kungfu City)' },
         value: `${GITHUB_IMAGE_BASE_URL}/wansuishandatiehua.jpg`,
         description: {zh: `万岁山是全世界最棒的人造游乐场！没有之一！
         音乐岛有内蒙古的马头琴和呼麦表演，有动物园，仙侠幻境城，王婆说媒，二娘的秀，武侠岛，神州广场的打铁花把我深深感动，仿佛他们要为我摘下天上最亮的星星……
