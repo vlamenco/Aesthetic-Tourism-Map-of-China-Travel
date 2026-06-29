@@ -22,12 +22,12 @@ export default function Header({ currentLang, onToggleLanguage }: HeaderProps) {
             INFJ+INFP的中国旅游审美地图
             <br />
             <span className="text-sm font-normal text-foreground/70">
-              Aesthetic Tourism Map of China for INFJ+INFP
+              Aesthetic Tourism Map of China 
             </span>
           </>
         ) : (
           <>
-            Aesthetic Tourism Map of China for INFJ+INFP
+            Aesthetic Tourism Map of China 
             <br />
             <span className="text-sm font-normal text-foreground/70">
               INFJ+INFP的中国旅游审美地图
