@@ -14,7 +14,7 @@ export interface MapLocation {
   items: MapItem[]
 }
 
-const GITHUB_IMAGE_BASE_URL = 'https://raw.githubusercontent.com/vlamenco/travel-img/main/images/';
+const GITHUB_IMAGE_BASE_URL = 'https://raw.githubusercontent.com/vlamenco/travel-img/main/images';
 /* https://raw.githubusercontent.com/vlamenco/Aesthetic-Tourism-Map-of-China-Travel/main/images/  */  
 
 export const AESTHETIC_MAP_DATA: MapLocation[] = [
