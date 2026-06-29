@@ -24,7 +24,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     cityName: { zh: '开封', en: 'Kaifeng' },
     items: [
       {type: 'image',
-        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.Wansui Mountain (The Song Dynasty Of Kungfu City)' },
+        name: { zh: 'A1.万岁山大宋武侠城', en: 'A1.Wansui Mountain (The Song Dynasty Of Kungfu City 万岁山)' },
         value: `${GITHUB_IMAGE_BASE_URL}/wansuishandatiehua.jpg`,
         description: {zh: `万岁山是全世界最棒的人造游乐场！没有之一！
         音乐岛有内蒙古的马头琴和呼麦表演，有动物园，仙侠幻境城，王婆说媒，二娘的秀，武侠岛，神州广场的打铁花把我深深感动，仿佛他们要为我摘下天上最亮的星星……
@@ -33,7 +33,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
         
         《无题》 元・郝经
         万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？`,
-    en: `Wansui Mountain 万岁山 is the best man-made amusement park in the world, bar none! On Music Island, there are performances of the Inner Mongolian horsehead fiddle and khoomei. The park also houses a zoo, a Xianxia Fantasy City, Aunt Wang's Matchmaking Show, Second Madam's Stage Show, and a Martial Arts Island……
+    en: `Wansui Mountain is the best man-made amusement park in the world, bar none! On Music Island, there are performances of the Inner Mongolian horsehead fiddle and khoomei. The park also houses a zoo, a Xianxia Fantasy City, Aunt Wang's Matchmaking Show, Second Madam's Stage Show, and a Martial Arts Island……
       Chinese intangible cultural heritage performances from all across the country can be enjoyed here!
       The molten iron fireworks show at Divine Land Square moved me deeply, as if they were about to pluck the brightest star from the sky just for me...
       All performers and NPCs are extremely dedicated and professional, sticking firmly to their posts even during sandstorms and heavy rain. 
