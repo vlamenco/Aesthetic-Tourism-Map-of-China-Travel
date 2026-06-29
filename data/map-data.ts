@@ -42,7 +42,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       Historical Origin：Wansui Mountain drained wealth from all the nine provinces, By Bian’s dykes, ten thousand souls still grieve. Since ancient times, many kingdoms fell in the Central Plains, Who knew it was stones that brought the Song to its end? （万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？）`}},
     
       {type: 'image',
-  name: { zh: 'A2.繁塔', en: 'A2.Po Tower' },
+  name: { zh: 'A2.繁塔', en: 'A2.Po Tower 繁Pó塔' },
   value: `${GITHUB_IMAGE_BASE_URL}/pota.jpg`,
   description: {zh: `“铁塔只搭繁塔腰”。so，繁塔才是重点（读Pó，但每次打字都要别扭地“读错”）。
       外观像玉玺，六角形，只有三层高（残缺仍旧很美），在开封古城外。这里最有心的是每个雕砖都是一个人的寄托，祈福，和纪念。
@@ -52,7 +52,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       Simple wishes converge and take form amid nearly 7,000 solemn statues of Buddhas, arhats, musicians and dancers across 108 different depictions.`}},
       
       {type: 'image',
-  name: { zh: 'A3.铁塔', en: 'A3.Iron Pagoda' },
+  name: { zh: 'A3.铁塔', en: 'A3.Iron Pagoda 铁塔' },
   value: `${GITHUB_IMAGE_BASE_URL}/tieta.jpg`,
   description: {
     zh: `参拜“天下第一塔”！
@@ -67,7 +67,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
 (I may not be broad-minded, but I strongly disagree with this!).`}},
      
        { type: 'image',
-  name: { zh: 'A4.延庆观', en: 'A4.Yanqing Taoist Temple' },
+  name: { zh: 'A4.延庆观', en: 'A4.Yanqing Taoist Temple 延庆观' },
   value: `${GITHUB_IMAGE_BASE_URL}/yanqingguan.jpg`,
   description: { zh: `开封唯一留存的元代古建筑群，国内唯一汉+蒙融合的道教建筑。
         下方上圆，中原 “天圆地方” 礼制 + 蒙古包穹顶造型结合。
@@ -77,7 +77,7 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
     Take a close look: glazed roof ridges are carved with Mongolian warriors riding lions, and Han people being ridden upon (helpless sigh). Xuanwu玄武, the God of the North, was elevated to the most supreme deity during the Yuan Dynasty. Can you almost hear the thunderous galloping of iron cavalry?`}},
      
             { type: 'image',
-  name: { zh: 'A5.大相国寺', en: 'A5.Daxiangguo Temple' },
+  name: { zh: 'A5.大相国寺', en: 'A5.Daxiangguo Temple 大相国寺' },
   value: `${GITHUB_IMAGE_BASE_URL}/daxiangguosi.jpg`,
   description: { zh: ` ·景云元年（710），韦后毒杀唐中宗，李隆基联合太平公主发动唐隆政变，诛杀韦氏一党，拥立相王李旦第二次登基，即唐睿宗。
     次年延和元年（712），睿宗忆自己数十年 “相王” 藩王身份入继大统的经历，下诏将汴梁新建的建国寺改名大相国寺，并亲笔题写寺额。 
@@ -96,7 +96,7 @@ Little Story：
 ·The Octagonal Glazed Hall houses a statue of the Thousand-Handed and Thousand-Eyed Guanyin carved from an entire ginkgo tree, which presents a stunning sight and draws an endless stream of worshippers.`}},
     
        { type: 'image',
-  name: { zh: 'A6.山陕甘会馆', en: 'A6.Shaanxi-Shanxi-Gansu Guild Hall' },
+  name: { zh: 'A6.山陕甘会馆', en: 'A6.Shaanxi-Shanxi-Gansu Guild Hall 山陕甘会馆' },
   value: `${GITHUB_IMAGE_BASE_URL}/shanshanganduilian.jpg`,
   description: { zh: `建于清乾隆三十一年（1766 年），原址是明代开国功臣徐达府邸，既是三省同乡商会议事场所，也供奉关公，主打 “忠义经商” 理念，号称北方第一会馆。
       看古建筑的 照壁，中间是蜘蛛🕷，表示吐丝编织细密大网，八条蛛足聚拢财源、兼顾四方客商。关公看了不知作何感想？
@@ -114,28 +114,28 @@ Adore the couplet: "Crowded you are, crowded I am; scarce space is left for anyo
 Watch the good, watch the bad; every soul shall meet their final end."`}},
     
     {type: 'image',
-        name: { zh: 'A7.夜市小摊', en: 'A7.Night market stall' },
+        name: { zh: 'A7.夜市小摊', en: 'A7.Night market stall夜市' },
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengyeshixiaochi.png`,
         description: {  zh: `鼓楼 / 西司 / 老河大 夜市，我都经过了，本地人不推荐，就像大部分出名的古镇，没太多特色，年轻人打卡凑热闹还行，老外估计比较喜欢。`,
     en: `I have passed by the night markets at Gulou鼓楼, Xisi 西司and Old Henan University老河大 夜市. Foreigners can come over to experience the lively alleyways and unique late-night snack culture. 
     The Drum Tower Night Market (Gulou) has the longest history, breaking the boundaries between lanes and markets, with shops everywhere in a densely packed commercial model.`}},
    
     {type: 'image',
-        name: { zh: 'A8.开封府', en: 'A8.Kaifeng Prefecture' },
+        name: { zh: 'A8.开封府', en: 'A8.Kaifeng Prefecture 开封府' },
         value: `${GITHUB_IMAGE_BASE_URL}/kaifengfu.jpg`,
         description: {  zh: `一个新建的景点，没有玩的吃的，纯纯n:1仿造，在清心楼登高望远包公湖时，才觉得这票价值3折.`, 
            en: `A newly built scenic spot with no entertainment facilities or food stalls; The area 开封府 is an 1:5 replica of Song dynasty. 
              Only when climbing up the Pure Heart Tower to overlook Baogong Lake did I feel the ticket price is worth a 70% discount off the original price.`},},
   
       {type: 'image',
-        name: { zh: 'B1.邢家锅贴', en: 'B1.Xing Guokui (Crispy Flatbread)' },
+        name: { zh: 'B1.邢家锅贴', en: 'B1.Xing Guokui (Crispy Flatbread邢家锅贴)' },
         value: `${GITHUB_IMAGE_BASE_URL}/guotie.jpg`,
         description: { zh: '味道清新，造型像拿破仑的帽子。',
           en: ` 邢家锅贴 Fresh taste and shaped like Napoleon's hat.
 "Impossible n'est pas français."`} },
     
      {type: 'image',
-        name: { zh: 'B2.黄河金鲤鱼焙面', en: 'B2.Yellow River Golden Carp' },
+        name: { zh: 'B2.黄河金鲤鱼焙面', en: 'B2.Yellow River Golden Carp 黄河金鲤鱼焙面' },
         value: `${GITHUB_IMAGE_BASE_URL}/huanghejinliyu.jpg`,
         description: {  zh: `在兴中楼清真饭店吃的，金鳞赤尾（专属激光刻字），很像松子鱼酸甜口，细挂面炸成棉被轻轻地盖上。让我长见识了！`,
     en: `I had the carp 黄河金鲤鱼焙面 at Xingzhonglou Halal Restaurant. It has golden scales and a red tail with exclusive laser engraving. 
@@ -144,7 +144,7 @@ Thin noodles are fried fluffy and covered gently on top.
 It broadened my horizons!`}},
 
        { type: 'image',
-  name: { zh: 'C1.包拯', en: 'C1.Bao Zheng' },
+  name: { zh: 'C1.包拯', en: 'C1.Bao Zheng 包拯' },
   value: `${GITHUB_IMAGE_BASE_URL}/baozheng.jpg`,
   description: { zh: `宋代科举分 “解试【举人】、省试【省元】、殿试{进士:【一甲：状元、榜眼、探花，赐及第;
 二甲：赐出身;
@@ -161,7 +161,7 @@ The hopeful light will come.
 (No need to visit the Lord Bao Memorial Temple. All the buildings were reconstructed in recent years.)`}},
 
     {type: 'text',
-        name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery' },
+        name: { zh: 'D1.汴绣', en: 'D1.Bian Embroidery 汴绣' },
         value: { zh: `汴绣，也称'宋绣'，为中国十大名绣之一。《东京梦华录》记载，其专为赵宋王公与达官贵人绣制官服及装饰品，也被誉为“官绣”。
           1982年总结出新老针法共36种，可选书签、团扇、摆件等做纪念品，是"能揣走的中原美学"，可到宋都御街，或各大文创店购买。
           不过我更喜欢广绣，色彩再靓丽点~`,
@@ -173,7 +173,7 @@ The hopeful light will come.
        links: [{text: 'Threading a path through time', url: 'https://www.chinadailyhk.com/hk/article/317111'}]},      
 
     {type: 'text',
-        name: { zh: 'D2.朱仙镇木版年画', en: 'D2.Zhuxian Town Woodblock New Year Paintings' },
+        name: { zh: 'D2.朱仙镇木版年画', en: 'D2.Zhuxian Town Woodblock New Year Paintings 朱仙镇木版年画' },
         value: { zh: `据孟元老《东京梦华录》记载，当时“市井皆印卖门神、钟馗、桃符及财神”等，其风格鲜明，以矿物、植物手工磨制颜料，多用青、黄、红三原色，色彩明快鲜艳，有乡土味。`,
           en: `As recorded in Dongjing Meng Hua Lu by Meng Yuanyou, "door gods, Zhong Kui, peachwood charms and God of Wealth prints were all sold in markets". 
           These 朱仙镇木版年画 prints featured a distinctive style, with pigments hand-ground from minerals and plants. Predominantly using the three primary colors of cyan, yellow and red, they boast bright, vivid hues brimming with rustic charm.
