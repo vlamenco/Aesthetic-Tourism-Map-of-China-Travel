@@ -110,7 +110,7 @@ export default function SidePanel({
       </div>
 
       {/* 转盘区域 - 在社交媒体上方 */}
-      <div className="border-t border-accent/30 bg-white/90 px-6 py-4 flex-shrink-0 flex justify-center">
+      <div className="bg-white/90 px-6 py-4 flex-shrink-0 flex justify-center">
         <SpinWheel
           mapInstance={mapInstance}
           data={data}
