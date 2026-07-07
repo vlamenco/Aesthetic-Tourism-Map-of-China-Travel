@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react'
 import dynamic from 'next/dynamic'
+import L from 'leaflet'
 import Header from '@/components/header'
 import SidePanel from '@/components/side-panel'
 import { AESTHETIC_MAP_DATA, type MapItem } from '@/data/map-data'
@@ -17,6 +18,7 @@ const MapContainer = dynamic(() => import('@/components/map-container'), {
 
 export default function Home() {
   const [currentLang, setCurrentLang] = useState<'zh' | 'en'>('en')
+  const [mapInstance, setMapInstance] = useState<L.Map | null>(null)
   const [panelContent, setPanelContent] = useState<{
     type: 'text' | 'image' | null
     title: string
@@ -75,6 +77,7 @@ export default function Home() {
             data={AESTHETIC_MAP_DATA}
             currentLang={currentLang}
             onItemClick={handleItemClick}
+            onMapReady={setMapInstance}
           />
         </div>
 
@@ -83,6 +86,9 @@ export default function Home() {
           currentLang={currentLang}
           panelContent={panelContent}
           onClose={closePanel}
+          mapInstance={mapInstance}
+          data={AESTHETIC_MAP_DATA}
+          currentLang={currentLang}
         />
       </main>
     </div>
