@@ -55,12 +55,8 @@ export default function SpinWheel({
       {/* 转盘容器 */}
        
         {/* 外圈装饰  className="relative h-24 w-24"*/}
-        <div
-          className="absolute inset-0 rounded-full border-2 border-primary/30 shadow-lg"
-          style={{
-            boxShadow: '0 0 12px rgba(78, 205, 196, 0.3)',
-          }}
-        />
+        {/* className="absolute inset-0 rounded-full border-2 border-primary/30 shadow-lg"
+          style={{ boxShadow: '0 0 12px rgba(78, 205, 196, 0.3)', }}   */}
 
         {/* 旋转的转盘 */}
         <div
@@ -139,7 +135,7 @@ export default function SpinWheel({
                 : '0 4px 12px rgba(0,0,0,0.15)',
             }}
           >
-            {currentLang === 'zh' ? '转' : 'Go'}
+            {currentLang === 'zh' ? '转' : 'Go Random'}
           </button>
         </div>
 
