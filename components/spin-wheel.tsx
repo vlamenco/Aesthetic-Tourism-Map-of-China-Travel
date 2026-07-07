@@ -53,7 +53,7 @@ export default function SpinWheel({
   return (
     <div className="absolute right-6 top-6 z-50 flex flex-col items-center gap-2">
       {/* 转盘容器 */}
-      <div className="relative h-24 w-24">
+       {/*   <div className="relative h-24 w-24"> */}
         {/* 外圈装饰 */}
         <div
           className="absolute inset-0 rounded-full border-2 border-primary/30 shadow-lg"
@@ -157,6 +157,6 @@ export default function SpinWheel({
       </div>
 
 
-    </div>
+      {/*  </div> */}
   )
 }
