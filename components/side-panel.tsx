@@ -1,6 +1,9 @@
 'use client'
 
 import Image from 'next/image'
+import L from 'leaflet'
+import SpinWheel from '@/components/spin-wheel'
+import { MapLocation } from '@/data/map-data'
 
 interface SidePanelProps {
   currentLang: 'zh' | 'en'
@@ -12,12 +15,16 @@ interface SidePanelProps {
     links?: Array<{ text: string; url: string }>  // 👈 新增
   }
   onClose: () => void
+  mapInstance: L.Map | null
+  data: MapLocation[]
 }
 
 export default function SidePanel({
   currentLang,
   panelContent,
   onClose,
+  mapInstance,
+  data,
 }: SidePanelProps) {
   return (
     <div className="flex h-full w-2/5 flex-col border-l-2 border-accent bg-white/95">
@@ -100,6 +107,15 @@ export default function SidePanel({
     </p>
   </div>
 )}
+      </div>
+
+      {/* 转盘区域 - 在社交媒体上方 */}
+      <div className="border-t border-accent/30 bg-white/90 px-6 py-4 flex-shrink-0 flex justify-center">
+        <SpinWheel
+          mapInstance={mapInstance}
+          data={data}
+          currentLang={currentLang}
+        />
       </div>
 
       {/* 社交媒体区域 - 固定在底部 */}
