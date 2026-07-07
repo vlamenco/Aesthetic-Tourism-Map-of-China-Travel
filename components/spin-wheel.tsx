@@ -135,7 +135,7 @@ export default function SpinWheel({
                 : '0 4px 12px rgba(0,0,0,0.15)',
             }}
           >
-            {currentLang === 'zh' ? '转' : 'Go Ram~'}
+            {currentLang === 'zh' ? '随机Go' : 'Go Ram~'}
           </button>
         </div>
 
