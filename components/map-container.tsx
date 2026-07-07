@@ -8,6 +8,7 @@ interface MapContainerProps {
   data: MapLocation[]
   currentLang: 'zh' | 'en'
   onItemClick: (item: MapItem) => void
+  onMapReady?: (map: L.Map) => void
 }
 
 // 中国边界范围
@@ -20,6 +21,7 @@ export default function MapContainer({
   data,
   currentLang,
   onItemClick,
+  onMapReady,
 }: MapContainerProps) {
   const mapRef = useRef<L.Map | null>(null)
   const tileLayerRef = useRef<L.TileLayer | null>(null)
@@ -42,6 +44,11 @@ export default function MapContainer({
 
     mapRef.current = map
     markerLayerRef.current = L.layerGroup().addTo(map)
+    
+    // 地图初始化完成后调用回调
+    if (onMapReady) {
+      onMapReady(map)
+    }
 
     // Add tile layer
     tileLayerRef.current = L.tileLayer(
