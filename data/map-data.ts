@@ -39,7 +39,8 @@ export const AESTHETIC_MAP_DATA: MapLocation[] = [
       All performers and NPCs are extremely dedicated and professional, sticking firmly to their posts even during sandstorms and heavy rain. 
       What's more, high-quality disposable raincoats cost only 7￥, and a bottle of Coca-Cola is merely 3￥! A 100￥ ticket grants unlimited entry for three full days, with fair pricing for all visitors, young and old alike!
       
-      Historical Origin：Wansui Mountain drained wealth from all the nine provinces, By Bian’s dykes, ten thousand souls still grieve. Since ancient times, many kingdoms fell in the Central Plains, Who knew it was stones that brought the Song to its end? （万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？）`}},
+      Historical Origin：Wansui Mountain drained wealth from all the nine provinces, By Bian’s dykes, ten thousand souls still grieve. Since ancient times, many kingdoms fell in the Central Plains, Who knew it was stones that brought the Song to its end? （万岁山来穷九州，汴堤犹有万人愁。中原自古多亡国，亡宋谁知是石头？）`},
+      links: [ { text: 'Web (No Ads)', url: 'http://wansuishan.com.cn/website/pc/index.html#/index' } ]},
     
       {type: 'image',
   name: { zh: 'A2.繁塔', en: 'A2.Po Tower 繁Pó塔' },
